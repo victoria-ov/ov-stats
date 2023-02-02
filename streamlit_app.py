@@ -1,91 +1,86 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import plotly.express as px
-from plotly.subplots import make_subplots
-import plotly.graph_objects as go
-import matplotlib.pyplot as plt
+import datetime
+from streamlit_extras.dataframe_explorer import dataframe_explorer
+
+# import numpy as np
+# import plotly.express as px
+# from plotly.subplots import make_subplots
+# import plotly.graph_objects as go
+# import matplotlib.pyplot as plt
+
+daily_commits = pd.read_csv('daily_commits.csv', sep=',')
+today_commits = pd.read_csv('today_commits.csv', sep=',')
+
+open_prs = pd.read_csv('open_prs.csv', sep=',')
+closed_prs = pd.read_csv('closed_prs.csv', sep=',')
 
 
-DATA_URL = ("gainers.csv")
-DATA_UR= ("losers.csv")
-df=pd.read_csv(DATA_URL)
-df1=pd.read_csv(DATA_UR)
+st.title("Open Vantage GitHub Metrics")
 
-st.title("Share Price analysis for May 2019 to May 2020:")
-st.sidebar.title("Share Price analysis for May 2019 to May 2020:")
-st.markdown("This application is a Share Price dashboard for Top 5 Gainers and Losers:")
-st.sidebar.markdown("This application is a Share Price dashboard for Top 5 Gainers and Losers:")
+tab1, tab2, tab3 = st.tabs(["Commits", "Open Pull Requests", "Closed Pull Requests"])
 
+with tab1:
+   daily_commits['author.login'] = daily_commits['author.login'].replace('', pd.NA).fillna(daily_commits['author.name'])
+   today_commits['author.login'] = today_commits['author.login'].replace('', pd.NA).fillna(today_commits['author.name'])
 
-st.sidebar.title("Gainers")
-select = st.sidebar.selectbox('Share', ['Adani Green Energy', 'GMM Pfaudler', 'AGC Networks', 'Alkyl Amines Chem', 'IOL Chem & Pharma'])
-if not st.sidebar.checkbox("Hide", True, key='1'):
-    st.title("Gainers")
-    if select == 'Adani Green Energy':
-        for i in ['AdaLow', 'AdaHigh', 'AdaClose', 'AdaOpen']:
-            df[i] = df[i].astype('float64')
-        avg_20 = df.AdaClose.rolling(window=20, min_periods=1).mean()
-        avg_50 = df.AdaClose.rolling(window=50, min_periods=1).mean()
-        avg_200 = df.AdaClose.rolling(window=200, min_periods=1).mean()
-        set1 = { 'x': df.AdaDate, 'open': df.AdaOpen, 'close': df.AdaClose, 'high': df.AdaHigh, 'low': df.AdaLow, 'type': 'candlestick',}
-        set2 = { 'x': df.AdaDate, 'y': avg_20, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'blue' },'name': 'MA 20 periods'}
-        set3 = { 'x': df.AdaDate, 'y': avg_50, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'yellow' },'name': 'MA 50 periods'}
-        set4 = { 'x': df.AdaDate, 'y': avg_200, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'black' },'name': 'MA 200 periods'}
-        data = [set1, set2, set3, set4]
-        fig = go.Figure(data=data)
-        st.plotly_chart(fig)
-    elif select=='AGC Networks':
-        for i in ['AgcLow', 'AgcHigh', 'AgcClose', 'AgcOpen']:
-            df[i] = df[i].astype('float64')
-        avg_20 = df.AgcClose.rolling(window=20, min_periods=1).mean()
-        avg_50 = df.AgcClose.rolling(window=50, min_periods=1).mean()
-        avg_200 = df.AgcClose.rolling(window=200, min_periods=1).mean()
-        set1 = { 'x': df.AgcDate, 'open': df.AgcOpen, 'close': df.AgcClose, 'high': df.AgcHigh, 'low': df.AgcLow, 'type': 'candlestick',}
-        set2 = { 'x': df.AgcDate, 'y': avg_20, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'blue' },'name': 'MA 20 periods'}
-        set3 = { 'x': df.AgcDate, 'y': avg_50, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'yellow' },'name': 'MA 50 periods'}
-        set4 = { 'x': df.AgcDate, 'y': avg_200, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'black' },'name': 'MA 200 periods'}
-        data = [set1, set2, set3, set4]
-        fig = go.Figure(data=data)
-        st.plotly_chart(fig)
-    elif select == 'GMM Pfaudler':
-        for i in ['GmmLow', 'GmmHigh', 'GmmClose', 'GmmOpen']:
-            df[i] = df[i].astype('float64')
-        avg_20 = df.GmmClose.rolling(window=20, min_periods=1).mean()
-        avg_50 = df.GmmClose.rolling(window=50, min_periods=1).mean()
-        avg_200 = df.GmmClose.rolling(window=200, min_periods=1).mean()
-        set1 = { 'x': df.GmmDate, 'open': df.GmmOpen, 'close': df.GmmClose, 'high': df.GmmHigh, 'low': df.GmmLow, 'type': 'candlestick',}
-        set2 = { 'x': df.GmmDate, 'y': avg_20, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'blue' },'name': 'MA 20 periods'}
-        set3 = { 'x': df.GmmDate, 'y': avg_50, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'yellow' },'name': 'MA 50 periods'}
-        set4 = { 'x': df.GmmDate, 'y': avg_200, 'type': 'scatter', 'mode': 'lines', 'line': { 'width': 1, 'color': 'black' },'name': 'MA 200 periods'}
-        data = [set1, set2, set3, set4]
-        fig = go.Figure(data=data)
-        st.plotly_chart(fig)
-    elif select=='Alkyl Amines Chem':
-        fig = go.Figure(data=[go.Candlestick(x=df['AlkDate'], open=df[' AlkOpen '], high=df[' AlkHigh '], low=df[' AlkLow '], close=df[' AlkClose '])])
-        st.plotly_chart(fig)
-    else:
-        fig = go.Figure(data=[go.Candlestick(x=df['IolDate'], open=df[' IolOpen '], high=df[' IolHigh '], low=df[' IolLow '], close=df[' IolClose '])])
-        st.plotly_chart(fig)
+   # Create a chart -- Average number of commits for last 7 days
+   day7_count = daily_commits.groupby(['author.login'])['sha'].count().reset_index(name="count")
+   day7_count['count'] = round(day7_count['count'] / 7, 2)
+   today_commits_count = today_commits.groupby(['author.login'])['sha'].count().reset_index(name="count")
 
+   # Streamlet starts here
+   st.header("Commits")
+   st.markdown("Commits for the last 24 hours")
+   today_data = pd.DataFrame()
+   today_data['Engineer'] = today_commits_count['author.login']
+   today_data['Count'] = today_commits_count['count']
+   st.bar_chart(today_data, x='Engineer', y='Count')
+   # st.dataframe(chart_data, use_container_width=True)
 
+   st.markdown("Average number of commits per day for last 7 days")
+   weekly_data = pd.DataFrame()
+   weekly_data['Engineer'] = day7_count['author.login']
+   weekly_data['Count'] = day7_count['count']
+   st.bar_chart(weekly_data, x='Engineer', y='Count')
+   # st.dataframe(chart_data, use_container_width=True)
 
-st.sidebar.title("Losers")
-select = st.sidebar.selectbox('Share', ['Indiabulls Housing', 'YES Bank', 'Indusind Bank', 'GAIL India', 'HDFC Bank'])
-if not st.sidebar.checkbox("Hide", True, key='2'):
-    st.title("Losers")
-    if select == 'Indiabulls Housing':
-        fig = go.Figure(data=[go.Candlestick(x=df1['IBDate'], open=df1[' IBOpen '], high=df1[' IBHigh '], low=df1[' IBLow '], close=df1[' IBClose '])])
-        st.plotly_chart(fig)
-    elif select=='YES Bank':
-        fig = go.Figure(data=[go.Candlestick(x=df1['YEDate'], open=df1[' YEOpen '], high=df1[' YEHigh '], low=df1[' YELow '], close=df1[' YEClose '])])
-        st.plotly_chart(fig)
-    elif select == 'Indusind Bank':
-        fig = go.Figure(data=[go.Candlestick(x=df1['INDate'], open=df1['INOpen'], high=df1['INHigh'], low=df1['INLow'], close=df1['INClose'])])
-        st.plotly_chart(fig)
-    elif select=='GAIL India':
-        fig = go.Figure(data=[go.Candlestick(x=df1['GADate'], open=df1[' GAOpen '], high=df1[' GAHigh '], low=df1[' GALow '], close=df1[' GAClose '])])
-        st.plotly_chart(fig)
-    else:
-        fig = go.Figure(data=[go.Candlestick(x=df1['HDDate'], open=df1[' HDOpen '], high=df1[' HDHigh '], low=df1[' HDLow '], close=df1[' HDClose '])])
-        st.plotly_chart(fig)
+with tab2:
+   st.header("Open Pull Requests")
+   open_prs_table = pd.DataFrame().assign(Repository=open_prs['head.repo.name'], Engineer=open_prs['user.login'],
+                                          Reviewer=open_prs['requested_reviewers'], Created=open_prs['created_at'],
+                                          Updated=open_prs['updated_at'], DaysOpen=open_prs['days-open'])
+
+   # st.dataframe(open_prs_table, width=None)
+
+   filtered_df = dataframe_explorer(open_prs_table)
+   st.dataframe(filtered_df, use_container_width=True)
+
+   open_prs['days-open'] = pd.to_timedelta(open_prs['days-open'])
+
+   open_prs['Time since created'] = open_prs['days-open'].dt.round(freq="D")
+   open_prs_per_repo = open_prs.groupby(['head.repo.name'])['days-open'].mean().reset_index(name="count")
+
+   open_prs_per_repo['count'] = open_prs_per_repo['count'].dt.days
+
+   # # Streamlet starts here
+   st.markdown("Average open time of current open PRs per repository")
+   open_prs_per_repo_data = pd.DataFrame()
+   open_prs_per_repo_data['Repository'] = open_prs_per_repo['head.repo.name']
+   open_prs_per_repo_data['Number of days'] = open_prs_per_repo['count']
+   st.bar_chart(open_prs_per_repo_data, x='Repository', y='Number of days')
+   # st.dataframe(open_prs_per_repo_data, use_container_width=True)
+
+   # Create a chart -- Open PRs per label assigned
+   st.markdown("Open PRs per label assigned")
+   open_prs_per_label = open_prs.groupby(['labels'])['labels'].count().reset_index(name="count")
+   open_prs_per_label_data = pd.DataFrame()
+   open_prs_per_label_data['Label'] = open_prs_per_label['labels']
+   open_prs_per_label_data['Count'] = open_prs_per_label['count']
+   st.bar_chart(open_prs_per_label_data, x='Label', y='Count')
+
+with tab3:
+   st.header("Closed Pull Requests")
+   st.markdown("Owl be here soon...")
+
+   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
