@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import datetime
-from streamlit_extras.dataframe_explorer import dataframe_explorer
+# from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 # import numpy as np
 # import plotly.express as px
@@ -51,10 +51,10 @@ with tab2:
                                           Reviewer=open_prs['requested_reviewers'], Created=open_prs['created_at'],
                                           Updated=open_prs['updated_at'], DaysOpen=open_prs['days-open'])
 
-   # st.dataframe(open_prs_table, width=None)
+   st.dataframe(open_prs_table, width=None)
 
-   filtered_df = dataframe_explorer(open_prs_table)
-   st.dataframe(filtered_df, use_container_width=True)
+   # filtered_df = dataframe_explorer(open_prs_table)
+   # st.dataframe(filtered_df, use_container_width=True)
 
    open_prs['days-open'] = pd.to_timedelta(open_prs['days-open'])
 
