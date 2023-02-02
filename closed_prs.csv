@@ -38,7 +38,7 @@ https://app.clickup.com/t/3427985/AI1-1218
 
 # Packages Added / Updated: #
 
-N/A",2023-01-27 14:03:11,2023-01-30 13:42:54,2023-01-30 13:42:51,2023-01-30 13:42:51,AdamErwee,READY FOR REVIEW,openvantage:fix/dashboard_query_waste,fix/dashboard_query_waste,ai1-web-react,15311,closed,2 days 23:39:40
+N/A",2023-01-27 14:03:11,2023-01-30 13:42:54,2023-01-30 13:42:51,2023-01-30 13:42:51,AdamErwee,READY FOR REVIEW,openvantage:fix/dashboard_query_waste,fix/dashboard_query_waste,ai1-web-react,15318,closed,2 days 23:39:40
 2,152,WilcoBreedt,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -76,7 +76,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 # Packages Added / Updated: #
 
 N/A
-",2023-01-26 10:25:08,2023-01-30 13:44:58,2023-01-30 13:44:55,2023-01-30 13:44:55,AdamErwee,READY FOR REVIEW,openvantage:fix/AI1-1217,fix/AI1-1217,ai1-web-react,15311,closed,4 days 03:19:47
+",2023-01-26 10:25:08,2023-01-30 13:44:58,2023-01-30 13:44:55,2023-01-30 13:44:55,AdamErwee,READY FOR REVIEW,openvantage:fix/AI1-1217,fix/AI1-1217,ai1-web-react,15318,closed,4 days 03:19:47
 3,151,AdamErwee,"# Description: #
 
 Delete/Cancel many reoccurring configs.
@@ -91,7 +91,7 @@ https://app.clickup.com/t/3427985/AI1-1293
 - [X] Feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] Chore (non-breaking, documentation or minor project update that does not affect the operation of anything in the project)
-",2023-01-26 09:56:38,2023-01-30 13:41:48,2023-01-30 13:41:48,2023-01-30 13:41:48,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1293_DeleteManyReocurringJobs,AI1-1293_DeleteManyReocurringJobs,ai1-web-react,15311,closed,4 days 03:45:10
+",2023-01-26 09:56:38,2023-01-30 13:41:48,2023-01-30 13:41:48,2023-01-30 13:41:48,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1293_DeleteManyReocurringJobs,AI1-1293_DeleteManyReocurringJobs,ai1-web-react,15318,closed,4 days 03:45:10
 4,150,AdamErwee,"# Description: #
 
 Saving selection context so that users can select jobs over multiple screens on create plan. Increased max from 500 to total amount of jobs available.
@@ -109,7 +109,7 @@ https://app.clickup.com/t/3427985/AI1-1238
 
 ![Screenshot 2023-01-26 at 10 26 01](https://user-images.githubusercontent.com/104312350/214789336-8d3f53ac-f2e3-410d-8a92-116facbb5409.png)
 
-",2023-01-26 05:46:32,2023-01-30 13:37:02,2023-01-30 13:37:00,2023-01-30 13:37:00,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1238,AI1-1238,ai1-web-react,15311,closed,4 days 07:50:28
+",2023-01-26 05:46:32,2023-01-30 13:37:02,2023-01-30 13:37:00,2023-01-30 13:37:00,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1238,AI1-1238,ai1-web-react,15318,closed,4 days 07:50:28
 5,149,AdamErwee,"# Description: #
 
 Added address to search on Job Swap screen. User can now seach for:
@@ -134,7 +134,7 @@ https://app.clickup.com/t/3427985/AI1-1226
 ![Screenshot 2023-01-25 at 10 31 31](https://user-images.githubusercontent.com/104312350/214516082-0ef10609-4517-46b5-9ac4-725541b6f1d3.png)
 <img width=""779"" alt=""Screenshot 2023-01-25 at 10 36 16"" src=""https://user-images.githubusercontent.com/104312350/214516360-9f604f23-3920-4a70-b3c1-4c9d0707df73.png"">
 
-",2023-01-25 08:35:23,2023-01-30 13:28:28,2023-01-30 13:28:26,2023-01-30 13:28:26,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1226_LiveMapSearch,AI1-1226_LiveMapSearch,ai1-web-react,15311,closed,5 days 04:53:03
+",2023-01-25 08:35:23,2023-01-30 13:28:28,2023-01-30 13:28:26,2023-01-30 13:28:26,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1226_LiveMapSearch,AI1-1226_LiveMapSearch,ai1-web-react,15318,closed,5 days 04:53:03
 6,148,AdamErwee,"# Description: #
 
 Added ""delete many"" functionality to the Vehicles, Drivers, and Jobs screens. Requires extensive testing.
@@ -155,14 +155,14 @@ https://app.clickup.com/t/3427985/AI1-883
 <img width=""148"" alt=""Screenshot 2023-01-25 at 10 10 31"" src=""https://user-images.githubusercontent.com/104312350/214514047-6cd33858-4378-4e02-b732-00da2ac7d69f.png"">
 <img width=""228"" alt=""Screenshot 2023-01-25 at 10 09 50"" src=""https://user-images.githubusercontent.com/104312350/214514050-e062615e-4437-42c3-8ff6-353ac0d7edd7.png"">
 <img width=""998"" alt=""Screenshot 2023-01-25 at 09 36 10"" src=""https://user-images.githubusercontent.com/104312350/214514054-2ab7ca28-5e3d-4563-a95b-bd83abe0a37d.png"">
-",2023-01-25 08:24:46,2023-01-30 13:27:12,2023-01-30 13:27:09,2023-01-30 13:27:09,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-883_DeleteAll,AI1-883_DeleteAll,ai1-web-react,15311,closed,5 days 05:02:23
+",2023-01-25 08:24:46,2023-01-30 13:27:12,2023-01-30 13:27:09,2023-01-30 13:27:09,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-883_DeleteAll,AI1-883_DeleteAll,ai1-web-react,15318,closed,5 days 05:02:23
 7,147,AdamErwee,"# Description: #
 
 Reduced the Icon size on the waste control room map to the smallest size.
 
 # Ticket: #
 
-https://app.clickup.com/t/3427985/AI1-1221",2023-01-18 08:35:00,2023-01-19 05:24:35,2023-01-19 05:24:33,2023-01-19 05:24:33,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1221_Watse_SmallerIcons,AI1-1221_Watse_SmallerIcons,ai1-web-react,15311,closed,0 days 20:49:33
+https://app.clickup.com/t/3427985/AI1-1221",2023-01-18 08:35:00,2023-01-19 05:24:35,2023-01-19 05:24:33,2023-01-19 05:24:33,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1221_Watse_SmallerIcons,AI1-1221_Watse_SmallerIcons,ai1-web-react,15318,closed,0 days 20:49:33
 8,146,AdamErwee,"# Description: #
 
 Added functionality on the waste control room that shows the last location of all vehicles being used for the day, on the progress map, if no single driver/scenario is selected. Also added the loading state to the map in the control room.
@@ -190,7 +190,7 @@ https://app.clickup.com/t/3427985/AI1-1206
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
 
-",2023-01-18 07:18:59,2023-01-19 09:29:29,2023-01-19 09:29:27,2023-01-19 09:29:27,No reviewer assigned,APPROVED,openvantage:AI1-1206_Waste_DashboardMapVehicles,AI1-1206_Waste_DashboardMapVehicles,ai1-web-react,15311,closed,1 days 02:10:28
+",2023-01-18 07:18:59,2023-01-19 09:29:29,2023-01-19 09:29:27,2023-01-19 09:29:27,No reviewer assigned,APPROVED,openvantage:AI1-1206_Waste_DashboardMapVehicles,AI1-1206_Waste_DashboardMapVehicles,ai1-web-react,15318,closed,1 days 02:10:28
 9,145,AdamErwee,"# Description: #
 
 Adjusted color coding on waste maps to account for RFID scanning and speed completions.
@@ -217,7 +217,7 @@ https://app.clickup.com/t/3427985/AI1-1208
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2023-01-17 06:28:42,2023-01-30 14:19:07,2023-01-30 14:19:01,2023-01-30 14:19:00,No reviewer assigned,APPROVED,openvantage:AI1-1208_Waste_RFIDColorCoding,AI1-1208_Waste_RFIDColorCoding,ai1-web-react,15311,closed,13 days 07:50:18
+",2023-01-17 06:28:42,2023-01-30 14:19:07,2023-01-30 14:19:01,2023-01-30 14:19:00,No reviewer assigned,APPROVED,openvantage:AI1-1208_Waste_RFIDColorCoding,AI1-1208_Waste_RFIDColorCoding,ai1-web-react,15318,closed,13 days 07:50:18
 10,144,AdamErwee,"# Description: #
 
 Updated Dashboard cards to show percentages and counts where relevant.
@@ -244,13 +244,13 @@ https://app.clickup.com/t/3427985/AI1-1205
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2023-01-16 08:34:16,2023-01-19 05:17:02,2023-01-19 05:16:59,2023-01-19 05:16:59,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1205_Waste_PercentageCards,AI1-1205_Waste_PercentageCards,ai1-web-react,15311,closed,2 days 20:42:43
-11,143,WilcoBreedt,,2023-01-12 17:04:39,2023-01-12 17:07:08,2023-01-12 17:07:07,2023-01-12 17:07:07,No reviewer assigned,Not labelled,openvantage:master,master,ai1-web-react,15311,closed,0 days 00:02:28
+",2023-01-16 08:34:16,2023-01-19 05:17:02,2023-01-19 05:16:59,2023-01-19 05:16:59,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1205_Waste_PercentageCards,AI1-1205_Waste_PercentageCards,ai1-web-react,15318,closed,2 days 20:42:43
+11,143,WilcoBreedt,,2023-01-12 17:04:39,2023-01-12 17:07:08,2023-01-12 17:07:07,2023-01-12 17:07:07,No reviewer assigned,Not labelled,openvantage:master,master,ai1-web-react,15318,closed,0 days 00:02:28
 12,142,AdamErwee,"Simple sort on report tabs in the accordion bar.
 
 Ticket:
 
-https://app.clickup.com/t/3427985/AI1-1270",2023-01-11 11:28:17,2023-01-19 05:08:45,2023-01-19 05:08:41,2023-01-19 05:08:41,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1270_ReportAlphabetically,AI1-1270_ReportAlphabetically,ai1-web-react,15311,closed,7 days 17:40:24
+https://app.clickup.com/t/3427985/AI1-1270",2023-01-11 11:28:17,2023-01-19 05:08:45,2023-01-19 05:08:41,2023-01-19 05:08:41,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1270_ReportAlphabetically,AI1-1270_ReportAlphabetically,ai1-web-react,15318,closed,7 days 17:40:24
 13,141,AdamErwee,"# Description: #
 
 Added functionality to delete many jobs on job screen.
@@ -283,7 +283,7 @@ https://app.clickup.com/t/3427985/AI1-883
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
 
-",2023-01-09 13:07:01,2023-01-19 05:07:27,2023-01-19 05:07:07,2023-01-19 05:07:07,No reviewer assigned,APPROVED,openvantage:AI1-883_DeleteMultiple,AI1-883_DeleteMultiple,ai1-web-react,15311,closed,9 days 16:00:06
+",2023-01-09 13:07:01,2023-01-19 05:07:27,2023-01-19 05:07:07,2023-01-19 05:07:07,No reviewer assigned,APPROVED,openvantage:AI1-883_DeleteMultiple,AI1-883_DeleteMultiple,ai1-web-react,15318,closed,9 days 16:00:06
 14,140,AdamErwee,"# Description: #
 
 - Removed filtering out of 'In Progress' jobs.
@@ -313,7 +313,7 @@ https://app.clickup.com/t/3427985/AI1-1163
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
 
-",2023-01-09 07:32:13,2023-01-09 08:27:33,2023-01-09 08:27:28,2023-01-09 08:27:28,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1163_JobStatus,AI1-1163_JobStatus,ai1-web-react,15311,closed,0 days 00:55:15
+",2023-01-09 07:32:13,2023-01-09 08:27:33,2023-01-09 08:27:28,2023-01-09 08:27:28,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1163_JobStatus,AI1-1163_JobStatus,ai1-web-react,15318,closed,0 days 00:55:15
 15,139,AdamErwee,"# Description: #
 
 Created table and modal for Payroll Summary Report generation.
@@ -340,10 +340,10 @@ https://app.clickup.com/t/3427985/AI1-1184
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2022-12-28 05:19:41,2022-12-29 06:15:26,2022-12-29 06:15:24,2022-12-29 06:15:24,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1184_Payroll_Summary,AI1-1184_Payroll_Summary,ai1-web-react,15311,closed,1 days 00:55:43
+",2022-12-28 05:19:41,2022-12-29 06:15:26,2022-12-29 06:15:24,2022-12-29 06:15:24,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1184_Payroll_Summary,AI1-1184_Payroll_Summary,ai1-web-react,15318,closed,1 days 00:55:43
 16,138,AdamErwee,"Adjusted permissions on reports to allow JMClarke specific access to Telematic Reports.
 
-Tickets: https://app.clickup.com/t/3427985/AI1-1213",2022-12-15 06:58:41,2022-12-19 11:59:50,2022-12-19 11:59:50,2022-12-19 11:59:50,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1213_User_Roles,AI1-1213_User_Roles,ai1-web-react,15311,closed,4 days 05:01:09
+Tickets: https://app.clickup.com/t/3427985/AI1-1213",2022-12-15 06:58:41,2022-12-19 11:59:50,2022-12-19 11:59:50,2022-12-19 11:59:50,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1213_User_Roles,AI1-1213_User_Roles,ai1-web-react,15318,closed,4 days 05:01:09
 17,137,AdamErwee,"# Description: #
 
 Created table and modal for Payroll Detail Report generation.
@@ -370,7 +370,7 @@ https://app.clickup.com/t/3427985/AI1-1183
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2022-12-13 12:54:30,2022-12-19 11:59:32,2022-12-19 11:59:31,2022-12-19 11:59:31,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1183_Payroll_Detail,AI1-1183_Payroll_Detail,ai1-web-react,15311,closed,5 days 23:05:01
+",2022-12-13 12:54:30,2022-12-19 11:59:32,2022-12-19 11:59:31,2022-12-19 11:59:31,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1183_Payroll_Detail,AI1-1183_Payroll_Detail,ai1-web-react,15318,closed,5 days 23:05:01
 18,136,AdamErwee,"# Description: #
 
 Added Expiry status to Reoccurring jobs. This table now works with its own query that handles filters/sorting. Does not allow search functionality just yet.
@@ -405,9 +405,9 @@ https://app.clickup.com/t/3427985/AI1-1126
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2022-12-06 09:08:21,2022-12-29 06:24:00,2022-12-29 06:23:59,2022-12-29 06:23:59,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1126_ReoccurringStatus,AI1-1126_ReoccurringStatus,ai1-web-react,15311,closed,22 days 21:15:38
-19,135,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1200,2022-11-22 14:37:25,2022-11-22 14:37:51,2022-11-22 14:37:49,2022-11-22 14:37:49,No reviewer assigned,Not labelled,openvantage:fix/image_upload,fix/image_upload,ai1-web-react,15311,closed,0 days 00:00:24
-20,134,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-865,2022-11-22 14:03:52,2022-11-22 14:04:08,2022-11-22 14:04:06,2022-11-22 14:04:06,No reviewer assigned,Not labelled,openvantage:fix/resolution,fix/resolution,ai1-web-react,15311,closed,0 days 00:00:14
+",2022-12-06 09:08:21,2022-12-29 06:24:00,2022-12-29 06:23:59,2022-12-29 06:23:59,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1126_ReoccurringStatus,AI1-1126_ReoccurringStatus,ai1-web-react,15318,closed,22 days 21:15:38
+19,135,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1200,2022-11-22 14:37:25,2022-11-22 14:37:51,2022-11-22 14:37:49,2022-11-22 14:37:49,No reviewer assigned,Not labelled,openvantage:fix/image_upload,fix/image_upload,ai1-web-react,15318,closed,0 days 00:00:24
+20,134,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-865,2022-11-22 14:03:52,2022-11-22 14:04:08,2022-11-22 14:04:06,2022-11-22 14:04:06,No reviewer assigned,Not labelled,openvantage:fix/resolution,fix/resolution,ai1-web-react,15318,closed,0 days 00:00:14
 21,133,AdamErwee,"# Description: #
 
 Added night shift field on Jobs and Create Plan Table (Waste and Sweepers).
@@ -442,7 +442,7 @@ https://app.clickup.com/t/3427985/AI1-212
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2022-11-15 07:23:37,2022-11-16 06:53:12,2022-11-16 06:53:11,2022-11-16 06:53:11,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-212_NightShiftField,AI1-212_NightShiftField,ai1-web-react,15311,closed,0 days 23:29:34
+",2022-11-15 07:23:37,2022-11-16 06:53:12,2022-11-16 06:53:11,2022-11-16 06:53:11,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-212_NightShiftField,AI1-212_NightShiftField,ai1-web-react,15318,closed,0 days 23:29:34
 22,132,AdamErwee,"# Description: #
 
 Added logic to handle the day of the week repeat per month on reoccurring dates.
@@ -478,7 +478,7 @@ https://app.clickup.com/t/3427985/AI1-1127
 # Packages Added / Updated: #
 
 None
-",2022-11-14 06:28:13,2022-12-05 07:59:19,2022-12-05 07:59:17,2022-12-05 07:59:17,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonth,AI1-1127_ReoccurringMonth,ai1-web-react,15311,closed,21 days 01:31:04
+",2022-11-14 06:28:13,2022-12-05 07:59:19,2022-12-05 07:59:17,2022-12-05 07:59:17,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonth,AI1-1127_ReoccurringMonth,ai1-web-react,15318,closed,21 days 01:31:04
 23,131,AdamErwee,"# Description: #
 
 Users can now only see the reports they have generated on the reports screen. Also corrected some minor sorting and entity type inconsistencies.
@@ -513,7 +513,7 @@ https://app.clickup.com/t/3427985/AI1-1033
 # Packages Added / Updated: #
 
 None
-",2022-11-09 13:14:03,2022-11-16 09:08:56,2022-11-16 09:08:54,2022-11-16 09:08:54,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1033_ReportUserVisibility,AI1-1033_ReportUserVisibility,ai1-web-react,15311,closed,6 days 19:54:51
+",2022-11-09 13:14:03,2022-11-16 09:08:56,2022-11-16 09:08:54,2022-11-16 09:08:54,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1033_ReportUserVisibility,AI1-1033_ReportUserVisibility,ai1-web-react,15318,closed,6 days 19:54:51
 24,130,AdamErwee,"# Description: #
 
 Added permissions to Telematics Management to cater to user roles that allow vehicle tracking actions.
@@ -548,7 +548,7 @@ https://app.clickup.com/t/3427985/AI1-1177
 # Packages Added / Updated: #
 
 None
-",2022-11-09 08:04:58,2022-11-09 10:12:42,2022-11-09 10:12:40,2022-11-09 10:12:40,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1177_TelematicsPermissions,AI1-1177_TelematicsPermissions,ai1-web-react,15311,closed,0 days 02:07:42
+",2022-11-09 08:04:58,2022-11-09 10:12:42,2022-11-09 10:12:40,2022-11-09 10:12:40,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1177_TelematicsPermissions,AI1-1177_TelematicsPermissions,ai1-web-react,15318,closed,0 days 02:07:42
 25,129,AdamErwee,"# Description: #
 
 Added check when rendering job plans on the control room map to ensure that only one depot marker is rendered per depot per sequence.
@@ -583,8 +583,8 @@ https://app.clickup.com/t/3427985/AI1-1166
 # Packages Added / Updated: #
 
 None
-",2022-11-08 11:24:12,2022-11-08 13:35:25,2022-11-08 13:35:23,2022-11-08 13:35:23,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1166_DepotDuplicates,AI1-1166_DepotDuplicates,ai1-web-react,15311,closed,0 days 02:11:11
-26,128,WilcoBreedt,,2022-11-08 07:39:05,2022-11-08 07:42:08,2022-11-08 07:42:06,2022-11-08 07:42:06,No reviewer assigned,Not labelled,openvantage:feature/waste_consolidated_bin_holder_view,feature/waste_consolidated_bin_holder_view,ai1-web-react,15311,closed,0 days 00:03:01
+",2022-11-08 11:24:12,2022-11-08 13:35:25,2022-11-08 13:35:23,2022-11-08 13:35:23,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1166_DepotDuplicates,AI1-1166_DepotDuplicates,ai1-web-react,15318,closed,0 days 02:11:11
+26,128,WilcoBreedt,,2022-11-08 07:39:05,2022-11-08 07:42:08,2022-11-08 07:42:06,2022-11-08 07:42:06,No reviewer assigned,Not labelled,openvantage:feature/waste_consolidated_bin_holder_view,feature/waste_consolidated_bin_holder_view,ai1-web-react,15318,closed,0 days 00:03:01
 27,127,AdamErwee,"# Description: #
 
 Added sample image, modal for creation and table for view of Planned vs Actual Mileage report. 
@@ -615,7 +615,7 @@ https://app.clickup.com/t/3427985/AI1-736
 - [ ] I have notified project leads about any environmental file changes/updates
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)",2022-11-04 11:55:51,2022-11-08 10:09:43,2022-11-08 10:09:41,2022-11-08 10:09:41,No reviewer assigned,APPROVED,openvantage:AI1-736_ActualVsPlannedMileage,AI1-736_ActualVsPlannedMileage,ai1-web-react,15311,closed,3 days 22:13:50
+- [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)",2022-11-04 11:55:51,2022-11-08 10:09:43,2022-11-08 10:09:41,2022-11-08 10:09:41,No reviewer assigned,APPROVED,openvantage:AI1-736_ActualVsPlannedMileage,AI1-736_ActualVsPlannedMileage,ai1-web-react,15318,closed,3 days 22:13:50
 28,126,AdamErwee,"# Description: #
 
 Added sample image, modal for creation and table for view of Planned vs Actual Jobs Completed report. 
@@ -649,7 +649,7 @@ https://app.clickup.com/t/3427985/AI1-729
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
 
-",2022-11-03 07:59:56,2022-11-08 08:14:59,2022-11-08 08:14:57,2022-11-08 08:14:57,No reviewer assigned,APPROVED,openvantage:AI1-729_ActualVsPlannedJobs,AI1-729_ActualVsPlannedJobs,ai1-web-react,15311,closed,5 days 00:15:01
+",2022-11-03 07:59:56,2022-11-08 08:14:59,2022-11-08 08:14:57,2022-11-08 08:14:57,No reviewer assigned,APPROVED,openvantage:AI1-729_ActualVsPlannedJobs,AI1-729_ActualVsPlannedJobs,ai1-web-react,15318,closed,5 days 00:15:01
 29,125,AdamErwee,"# Description: #
 
 Added sample image, modal for creation and table for view of Timesheet report. 
@@ -683,11 +683,11 @@ https://app.clickup.com/t/3427985/AI1-756
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
 
-",2022-11-01 10:42:12,2022-11-08 07:48:55,2022-11-08 07:48:47,2022-11-08 07:48:47,No reviewer assigned,APPROVED,openvantage:AI1-756_TimeSheetReport,AI1-756_TimeSheetReport,ai1-web-react,15311,closed,6 days 21:06:35
+",2022-11-01 10:42:12,2022-11-08 07:48:55,2022-11-08 07:48:47,2022-11-08 07:48:47,No reviewer assigned,APPROVED,openvantage:AI1-756_TimeSheetReport,AI1-756_TimeSheetReport,ai1-web-react,15318,closed,6 days 21:06:35
 31,13,AdamErwee,"Sorted jobs according to sequence number and added sequence number to job card.
 
 ![Screenshot 2023-01-09 at 09 54 16](https://user-images.githubusercontent.com/104312350/211285663-83b9c21f-e302-40d0-b958-7d58dccc47ca.png)
-",2023-01-09 10:17:26,2023-01-26 14:33:39,2023-01-26 14:33:34,2023-01-26 14:33:34,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1096_JobSequence,AI1-1096_JobSequence,ai1-mobile-rn,4853,closed,17 days 04:16:08
+",2023-01-09 10:17:26,2023-01-26 14:33:39,2023-01-26 14:33:34,2023-01-26 14:33:34,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1096_JobSequence,AI1-1096_JobSequence,ai1-mobile-rn,4863,closed,17 days 04:16:08
 32,12,AdamErwee,"Calculated the distance between a job's lat-long and the driver's location using the `haversine` library that uses the haversine formula. This can be calculated manually.
 
 The nearby jobs are also sorted ASC by distance before being rendered.
@@ -700,32 +700,49 @@ https://app.clickup.com/t/3427985/AI1-1117
 
 Library:
 
-[haversine](https://www.npmjs.com/package/haversine)",2023-01-03 11:59:05,2023-01-26 14:32:20,2023-01-26 14:32:18,2023-01-26 14:32:18,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1117_NearbyJobs,AI1-1117_NearbyJobs,ai1-mobile-rn,4853,closed,23 days 02:33:13
+[haversine](https://www.npmjs.com/package/haversine)",2023-01-03 11:59:05,2023-01-26 14:32:20,2023-01-26 14:32:18,2023-01-26 14:32:18,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1117_NearbyJobs,AI1-1117_NearbyJobs,ai1-mobile-rn,4863,closed,23 days 02:33:13
 33,11,AdamErwee,"Filtered jobs on the map for sweeper entities to combine consecutive jobs in the same street as one marker. And then rendering these markers with a route.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1190",2022-11-23 10:46:51,2022-12-30 11:39:23,2022-12-19 12:00:33,2022-12-19 12:00:33,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1190_SweeperJobsMap,AI1-1190_SweeperJobsMap,ai1-mobile-rn,4853,closed,26 days 01:13:42
+Ticket: https://app.clickup.com/t/3427985/AI1-1190",2022-11-23 10:46:51,2022-12-30 11:39:23,2022-12-19 12:00:33,2022-12-19 12:00:33,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1190_SweeperJobsMap,AI1-1190_SweeperJobsMap,ai1-mobile-rn,4863,closed,26 days 01:13:42
 34,10,AdamErwee,"Moved NumericalInput fix and Gallery Quality fix changes to master.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1108",2022-10-24 07:59:16,2022-10-25 14:30:24,2022-10-25 14:30:22,2022-10-25 14:30:22,No reviewer assigned,Not labelled,openvantage:AI1-1108_UpdateFromRelease107,AI1-1108_UpdateFromRelease107,ai1-mobile-rn,4853,closed,1 days 06:31:06
-35,9,WilcoBreedt,,2022-10-19 07:47:13,2022-10-19 07:51:01,2022-10-19 07:50:59,2022-10-19 07:50:59,No reviewer assigned,Not labelled,openvantage:feature/waste,feature/waste,ai1-mobile-rn,4853,closed,0 days 00:03:46
+Ticket: https://app.clickup.com/t/3427985/AI1-1108",2022-10-24 07:59:16,2022-10-25 14:30:24,2022-10-25 14:30:22,2022-10-25 14:30:22,No reviewer assigned,Not labelled,openvantage:AI1-1108_UpdateFromRelease107,AI1-1108_UpdateFromRelease107,ai1-mobile-rn,4863,closed,1 days 06:31:06
+35,9,WilcoBreedt,,2022-10-19 07:47:13,2022-10-19 07:51:01,2022-10-19 07:50:59,2022-10-19 07:50:59,No reviewer assigned,Not labelled,openvantage:feature/waste,feature/waste,ai1-mobile-rn,4863,closed,0 days 00:03:46
 36,8,AdamErwee,"Added the next 48 hours jobs to the itinerary if the user's entityType is SWEEPERS. Needed to adapt the login query and query fields to achieve this.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1099",2022-10-19 07:33:37,2022-10-19 07:50:33,2022-10-19 07:50:31,2022-10-19 07:50:31,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1099_48HourItinerary,AI1-1099_48HourItinerary,ai1-mobile-rn,4853,closed,0 days 00:16:54
+Ticket: https://app.clickup.com/t/3427985/AI1-1099",2022-10-19 07:33:37,2022-10-19 07:50:33,2022-10-19 07:50:31,2022-10-19 07:50:31,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1099_48HourItinerary,AI1-1099_48HourItinerary,ai1-mobile-rn,4863,closed,0 days 00:16:54
 38,6,AdamErwee,"Utilise distance from nearbyJobs query and show it on the near by jobs cards (see below):
 
 <img width=""283"" alt=""Screenshot 2022-10-07 at 11 28 04"" src=""https://user-images.githubusercontent.com/104312350/194521906-c0a0e640-d034-4b2d-ba35-ee20165ef0e7.png"">
 
 Converted from meters -> miles.
-",2022-10-07 09:30:23,2022-10-10 08:33:18,2022-10-10 08:33:16,2022-10-10 08:33:16,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1076_Mileage,AI1-1076_Mileage,ai1-mobile-rn,4853,closed,2 days 23:02:53
-39,5,WilcoBreedt,,2022-09-20 12:26:42,2022-10-03 11:24:31,2022-10-03 11:24:29,2022-10-03 11:24:29,No reviewer assigned,Not labelled,openvantage:chore/ffcSweeperes,chore/ffcSweeperes,ai1-mobile-rn,4853,closed,12 days 22:57:47
-40,4,AdamErwee,Compressing/reducing photo size when user selects photos from phone gallery. Reduced size from 5mb to 700kb. This should reduce report generation time and prevent timeout.,2022-09-12 08:04:16,2022-10-10 08:33:56,2022-10-10 08:33:55,2022-10-10 08:33:55,No reviewer assigned,APPROVED,openvantage:AI1-969_PhotoCompression,AI1-969_PhotoCompression,ai1-mobile-rn,4853,closed,28 days 00:29:39
-41,3,FrikanRwOV,https://app.clickup.com/t/3427985/AI1-857,2022-08-24 04:56:22,2022-08-24 05:02:22,2022-08-24 05:02:19,2022-08-24 05:02:19,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-857_JM-clark-Work-flow---On-the-final-signature-screen-can-we-have-a-information-button-too-allow-the-driver-to-show-the-informations-related-to-the-job-Ie-the-Job-details-on-the-card_Frikan-Erwee,AI1-857_JM-clark-Work-flow---On-the-final-signature-screen-can-we-have-a-information-button-too-allow-the-driver-to-show-the-informations-related-to-the-job-Ie-the-Job-details-on-the-card_Frikan-Erwee,ai1-mobile-rn,4853,closed,0 days 00:05:57
-42,2,Decs42,,2022-08-15 14:15:13,2022-08-17 19:34:23,2022-08-17 19:34:17,2022-08-17 19:34:17,WilcoBreedt,READY FOR REVIEW,openvantage:fix/CU-2ptnzkr_endOfDay,fix/CU-2ptnzkr_endOfDay,ai1-mobile-rn,4853,closed,2 days 05:19:04
-43,1,WianOV,Force dark mode to not change text so it can be displayed in text fields.,2022-08-11 07:18:48,2023-01-09 08:40:23,2023-01-09 08:40:13,,FrikanRwOV,CHANGES REQUESTED,openvantage:Drak-mode,Drak-mode,ai1-mobile-rn,4853,closed,
-48,81,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1279,2023-01-20 09:49:35,2023-01-30 13:46:34,2023-01-30 13:46:27,2023-01-30 13:46:27,No reviewer assigned,APPROVED,openvantage:fix/include_nightshift_daily_extract,fix/include_nightshift_daily_extract,ai1-backend-prisma,11922,closed,10 days 03:56:52
+",2022-10-07 09:30:23,2022-10-10 08:33:18,2022-10-10 08:33:16,2022-10-10 08:33:16,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1076_Mileage,AI1-1076_Mileage,ai1-mobile-rn,4863,closed,2 days 23:02:53
+39,5,WilcoBreedt,,2022-09-20 12:26:42,2022-10-03 11:24:31,2022-10-03 11:24:29,2022-10-03 11:24:29,No reviewer assigned,Not labelled,openvantage:chore/ffcSweeperes,chore/ffcSweeperes,ai1-mobile-rn,4863,closed,12 days 22:57:47
+40,4,AdamErwee,Compressing/reducing photo size when user selects photos from phone gallery. Reduced size from 5mb to 700kb. This should reduce report generation time and prevent timeout.,2022-09-12 08:04:16,2022-10-10 08:33:56,2022-10-10 08:33:55,2022-10-10 08:33:55,No reviewer assigned,APPROVED,openvantage:AI1-969_PhotoCompression,AI1-969_PhotoCompression,ai1-mobile-rn,4863,closed,28 days 00:29:39
+41,3,FrikanRwOV,https://app.clickup.com/t/3427985/AI1-857,2022-08-24 04:56:22,2022-08-24 05:02:22,2022-08-24 05:02:19,2022-08-24 05:02:19,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-857_JM-clark-Work-flow---On-the-final-signature-screen-can-we-have-a-information-button-too-allow-the-driver-to-show-the-informations-related-to-the-job-Ie-the-Job-details-on-the-card_Frikan-Erwee,AI1-857_JM-clark-Work-flow---On-the-final-signature-screen-can-we-have-a-information-button-too-allow-the-driver-to-show-the-informations-related-to-the-job-Ie-the-Job-details-on-the-card_Frikan-Erwee,ai1-mobile-rn,4863,closed,0 days 00:05:57
+42,2,Decs42,,2022-08-15 14:15:13,2022-08-17 19:34:23,2022-08-17 19:34:17,2022-08-17 19:34:17,WilcoBreedt,READY FOR REVIEW,openvantage:fix/CU-2ptnzkr_endOfDay,fix/CU-2ptnzkr_endOfDay,ai1-mobile-rn,4863,closed,2 days 05:19:04
+43,1,WianOV,Force dark mode to not change text so it can be displayed in text fields.,2022-08-11 07:18:48,2023-01-09 08:40:23,2023-01-09 08:40:13,,FrikanRwOV,CHANGES REQUESTED,openvantage:Drak-mode,Drak-mode,ai1-mobile-rn,4863,closed,
+44,85,AdamErwee,"Minor changes to scheduled reporting:
+
+- Added try-catch to prevent error one schedule to stop schedule generation
+- Better error output for faster investigation
+- Code cleanup on some report functions
+
+Ticket: https://app.clickup.com/t/3427985/AI1-1283",2023-02-01 08:59:33,2023-02-02 13:28:08,2023-02-02 13:28:05,2023-02-02 13:28:05,No reviewer assigned,Not labelled,openvantage:fix_scheduled_reports,fix_scheduled_reports,ai1-backend-prisma,11924,closed,1 days 04:28:32
+46,83,AdamErwee,"Changed order on payroll summary report to be by registrationNumber, startDate and then startTime.
+
+Ticket: https://app.clickup.com/t/3427985/AI1-1299
+
+",2023-01-31 13:08:07,2023-02-02 13:14:06,2023-02-02 13:14:03,2023-02-02 13:14:03,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1299_SummaryReportChangeRequest,AI1-1299_SummaryReportChangeRequest,ai1-backend-prisma,11924,closed,2 days 00:05:56
+47,82,AdamErwee,"Events mapper now fills in blank locations with the last recorded location before further manipulation. This ensures that the last recorded is more accurate. Reports and FE should now coincide with recorded locations.
+
+Ticket:
+
+https://app.clickup.com/t/3427985/AI1-1298",2023-01-31 10:39:09,2023-02-02 13:10:51,2023-02-02 13:10:46,2023-02-02 13:10:46,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1298_LastLocation,AI1-1298_LastLocation,ai1-backend-prisma,11924,closed,2 days 02:31:37
+48,81,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1279,2023-01-20 09:49:35,2023-01-30 13:46:34,2023-01-30 13:46:27,2023-01-30 13:46:27,No reviewer assigned,APPROVED,openvantage:fix/include_nightshift_daily_extract,fix/include_nightshift_daily_extract,ai1-backend-prisma,11924,closed,10 days 03:56:52
 49,80,AdamErwee,"Added query that receives an array of vehicle ids, startDate, and endDate and gets the last location relevant to these parameters.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1206",2023-01-18 07:20:52,2023-01-19 05:27:26,2023-01-19 05:27:22,2023-01-19 05:27:22,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1206_Waste_DashboardMapVehicles,AI1-1206_Waste_DashboardMapVehicles,ai1-backend-prisma,11922,closed,0 days 22:06:30
+Ticket: https://app.clickup.com/t/3427985/AI1-1206",2023-01-18 07:20:52,2023-01-19 05:27:26,2023-01-19 05:27:22,2023-01-19 05:27:22,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1206_Waste_DashboardMapVehicles,AI1-1206_Waste_DashboardMapVehicles,ai1-backend-prisma,11924,closed,0 days 22:06:30
 50,79,AdamErwee,"Added grouping and subheadings for groupings to report. Also made changes to total duration.
 
 Ticket: 
@@ -733,22 +750,22 @@ Ticket:
 https://app.clickup.com/t/3427985/AI1-1262
 
 <img width=""1242"" alt=""Screenshot 2023-01-11 at 11 54 54"" src=""https://user-images.githubusercontent.com/104312350/211774995-642e2192-868e-4e13-8790-288b77b9ffec.png"">
-",2023-01-11 09:55:48,2023-01-19 09:30:23,2023-01-19 09:30:21,2023-01-19 09:30:21,WilcoBreedt,APPROVED,openvantage:AI1-1262_PayrollSummaryChanges,AI1-1262_PayrollSummaryChanges,ai1-backend-prisma,11922,closed,7 days 23:34:33
+",2023-01-11 09:55:48,2023-01-19 09:30:23,2023-01-19 09:30:21,2023-01-19 09:30:21,WilcoBreedt,APPROVED,openvantage:AI1-1262_PayrollSummaryChanges,AI1-1262_PayrollSummaryChanges,ai1-backend-prisma,11924,closed,7 days 23:34:33
 51,78,AdamErwee,"Grouping on Payroll Detail report and added summary heading of this grouping per vehicle.
 
 <img width=""1240"" alt=""Screenshot 2023-01-11 at 10 59 44"" src=""https://user-images.githubusercontent.com/104312350/211762927-2b9f5a0b-fc58-4163-9796-25d4202d0017.png"">
-",2023-01-11 09:01:27,2023-01-19 05:28:58,2023-01-19 05:28:56,2023-01-19 05:28:56,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1263_PayrollDetail,AI1-1263_PayrollDetail,ai1-backend-prisma,11922,closed,7 days 20:27:29
+",2023-01-11 09:01:27,2023-01-19 05:28:58,2023-01-19 05:28:56,2023-01-19 05:28:56,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1263_PayrollDetail,AI1-1263_PayrollDetail,ai1-backend-prisma,11924,closed,7 days 20:27:29
 52,77,AdamErwee,"Added fix to monthly day on reoccurrence dates
 
 Ticket:
 
-https://app.clickup.com/t/3427985/AI1-1127",2023-01-05 06:30:03,2023-01-06 13:26:17,2023-01-06 13:26:11,2023-01-06 13:26:11,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonthDay_Fix,AI1-1127_ReoccurringMonthDay_Fix,ai1-backend-prisma,11922,closed,1 days 06:56:08
-53,76,AdamErwee,Literally adjusted dailyExtract logic to remove Saturday/Sunday check. This is upon request to generate Saturday jobs manually. ,2023-01-04 07:10:35,2023-01-05 10:33:09,2023-01-05 10:33:07,2023-01-05 10:33:07,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1256_Daily_Extract_Job,AI1-1256_Daily_Extract_Job,ai1-backend-prisma,11922,closed,1 days 03:22:32
+https://app.clickup.com/t/3427985/AI1-1127",2023-01-05 06:30:03,2023-01-06 13:26:17,2023-01-06 13:26:11,2023-01-06 13:26:11,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonthDay_Fix,AI1-1127_ReoccurringMonthDay_Fix,ai1-backend-prisma,11924,closed,1 days 06:56:08
+53,76,AdamErwee,Literally adjusted dailyExtract logic to remove Saturday/Sunday check. This is upon request to generate Saturday jobs manually. ,2023-01-04 07:10:35,2023-01-05 10:33:09,2023-01-05 10:33:07,2023-01-05 10:33:07,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1256_Daily_Extract_Job,AI1-1256_Daily_Extract_Job,ai1-backend-prisma,11924,closed,1 days 03:22:32
 54,75,AdamErwee,"Query setup for payroll summary report.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1184",2022-12-28 05:23:14,2022-12-29 06:14:46,2022-12-29 06:14:44,2022-12-29 06:14:44,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1184_Payroll_Summary,AI1-1184_Payroll_Summary,ai1-backend-prisma,11922,closed,1 days 00:51:30
+Ticket: https://app.clickup.com/t/3427985/AI1-1184",2022-12-28 05:23:14,2022-12-29 06:14:46,2022-12-29 06:14:44,2022-12-29 06:14:44,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1184_Payroll_Summary,AI1-1184_Payroll_Summary,ai1-backend-prisma,11924,closed,1 days 00:51:30
 55,74,AdamErwee,"Ticket:
-https://app.clickup.com/t/3427985/AI1-1183",2022-12-13 12:55:02,2022-12-19 12:00:10,2022-12-19 12:00:10,2022-12-19 12:00:10,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1183_Payroll_Detail,AI1-1183_Payroll_Detail,ai1-backend-prisma,11922,closed,5 days 23:05:08
+https://app.clickup.com/t/3427985/AI1-1183",2022-12-13 12:55:02,2022-12-19 12:00:10,2022-12-19 12:00:10,2022-12-19 12:00:10,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1183_Payroll_Detail,AI1-1183_Payroll_Detail,ai1-backend-prisma,11924,closed,5 days 23:05:08
 56,73,AdamErwee,"# Description: #
 
 Added a custom query that handles filters/sorting for Reoccurring Jobs Table. Does not allow search functionality just yet.
@@ -783,40 +800,40 @@ https://app.clickup.com/t/3427985/AI1-1126
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2022-12-06 09:09:39,2022-12-29 06:19:10,2022-12-29 06:19:08,2022-12-29 06:19:08,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1126_ReoccurringStatus,AI1-1126_ReoccurringStatus,ai1-backend-prisma,11922,closed,22 days 21:09:29
+",2022-12-06 09:09:39,2022-12-29 06:19:10,2022-12-29 06:19:08,2022-12-29 06:19:08,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1126_ReoccurringStatus,AI1-1126_ReoccurringStatus,ai1-backend-prisma,11924,closed,22 days 21:09:29
 57,72,AdamErwee,"Minor fixes made to the sweeper summary and detail report made on CSV and EXCEL. I suspect that these errors occurred from merge conflict because testing prior to the original PR was successful.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-875",2022-11-23 13:49:07,2022-12-05 08:07:21,2022-12-05 08:07:19,2022-12-05 08:07:19,WilcoBreedt,Not labelled,openvantage:AI1-875_SweeperReportFixes,AI1-875_SweeperReportFixes,ai1-backend-prisma,11922,closed,11 days 18:18:12
+Ticket: https://app.clickup.com/t/3427985/AI1-875",2022-11-23 13:49:07,2022-12-05 08:07:21,2022-12-05 08:07:19,2022-12-05 08:07:19,WilcoBreedt,Not labelled,openvantage:AI1-875_SweeperReportFixes,AI1-875_SweeperReportFixes,ai1-backend-prisma,11924,closed,11 days 18:18:12
 58,71,AdamErwee,"Added logic to handle the day of the week repeat per month on reoccurring dates.
 
 Ticket: https://app.clickup.com/t/3427985/AI1-1127
 
-",2022-11-14 06:25:23,2022-12-05 08:05:04,2022-12-05 08:05:02,2022-12-05 08:05:02,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonthDay,AI1-1127_ReoccurringMonthDay,ai1-backend-prisma,11922,closed,21 days 01:39:39
-59,70,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1157,2022-11-10 14:58:36,2022-11-16 06:48:26,2022-11-16 06:48:25,2022-11-16 06:48:24,No reviewer assigned,Not labelled,openvantage:fix/location_names,fix/location_names,ai1-backend-prisma,11922,closed,5 days 15:49:48
-60,69,WilcoBreedt,,2022-11-08 07:38:31,2022-11-08 10:18:14,2022-11-08 10:18:12,2022-11-08 10:18:12,No reviewer assigned,Not labelled,openvantage:feature/waste_consolidated_bin_holder_view,feature/waste_consolidated_bin_holder_view,ai1-backend-prisma,11922,closed,0 days 02:39:41
+",2022-11-14 06:25:23,2022-12-05 08:05:04,2022-12-05 08:05:02,2022-12-05 08:05:02,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonthDay,AI1-1127_ReoccurringMonthDay,ai1-backend-prisma,11924,closed,21 days 01:39:39
+59,70,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1157,2022-11-10 14:58:36,2022-11-16 06:48:26,2022-11-16 06:48:25,2022-11-16 06:48:24,No reviewer assigned,Not labelled,openvantage:fix/location_names,fix/location_names,ai1-backend-prisma,11924,closed,5 days 15:49:48
+60,69,WilcoBreedt,,2022-11-08 07:38:31,2022-11-08 10:18:14,2022-11-08 10:18:12,2022-11-08 10:18:12,No reviewer assigned,Not labelled,openvantage:feature/waste_consolidated_bin_holder_view,feature/waste_consolidated_bin_holder_view,ai1-backend-prisma,11924,closed,0 days 02:39:41
 61,68,AdamErwee,"- Made logos bigger to fit entire header space
 - Adjusted white labelling and added it where missing
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1115",2022-11-08 05:56:15,2022-11-08 10:17:57,2022-11-08 10:17:55,2022-11-08 10:17:55,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1115_ReportLogos,AI1-1115_ReportLogos,ai1-backend-prisma,11922,closed,0 days 04:21:40
+Ticket: https://app.clickup.com/t/3427985/AI1-1115",2022-11-08 05:56:15,2022-11-08 10:17:57,2022-11-08 10:17:55,2022-11-08 10:17:55,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1115_ReportLogos,AI1-1115_ReportLogos,ai1-backend-prisma,11924,closed,0 days 04:21:40
 62,67,AdamErwee,"BE setup for planned vs actual mileage report.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-736",2022-11-04 12:02:37,2022-11-09 10:13:42,2022-11-09 10:13:40,2022-11-09 10:13:40,WilcoBreedt,APPROVED,openvantage:AI1-736_ActualVsPlannedMileage,AI1-736_ActualVsPlannedMileage,ai1-backend-prisma,11922,closed,4 days 22:11:03
-63,66,WilcoBreedt,,2022-11-04 11:57:56,2022-11-08 10:15:46,2022-11-08 10:15:44,2022-11-08 10:15:44,No reviewer assigned,Not labelled,openvantage:feature/waste_speed_complete,feature/waste_speed_complete,ai1-backend-prisma,11922,closed,3 days 22:17:48
+Ticket: https://app.clickup.com/t/3427985/AI1-736",2022-11-04 12:02:37,2022-11-09 10:13:42,2022-11-09 10:13:40,2022-11-09 10:13:40,WilcoBreedt,APPROVED,openvantage:AI1-736_ActualVsPlannedMileage,AI1-736_ActualVsPlannedMileage,ai1-backend-prisma,11924,closed,4 days 22:11:03
+63,66,WilcoBreedt,,2022-11-04 11:57:56,2022-11-08 10:15:46,2022-11-08 10:15:44,2022-11-08 10:15:44,No reviewer assigned,Not labelled,openvantage:feature/waste_speed_complete,feature/waste_speed_complete,ai1-backend-prisma,11924,closed,3 days 22:17:48
 64,65,AdamErwee,"BE setup for planned vs actual jobs completed report.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-729",2022-11-03 08:02:11,2022-11-08 13:32:57,2022-11-08 13:32:52,2022-11-08 13:32:52,No reviewer assigned,APPROVED,openvantage:AI1-729_ActualVsPlannedJobs,AI1-729_ActualVsPlannedJobs,ai1-backend-prisma,11922,closed,5 days 05:30:41
+Ticket: https://app.clickup.com/t/3427985/AI1-729",2022-11-03 08:02:11,2022-11-08 13:32:57,2022-11-08 13:32:52,2022-11-08 13:32:52,No reviewer assigned,APPROVED,openvantage:AI1-729_ActualVsPlannedJobs,AI1-729_ActualVsPlannedJobs,ai1-backend-prisma,11924,closed,5 days 05:30:41
 65,64,AdamErwee,"BE setup for timesheet report.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-756",2022-11-01 10:43:01,2022-11-08 10:12:20,2022-11-08 10:12:15,2022-11-08 10:12:15,WilcoBreedt,APPROVED,openvantage:AI1-756_TimsheetReport,AI1-756_TimsheetReport,ai1-backend-prisma,11922,closed,6 days 23:29:14
-66,63,WilcoBreedt,,2022-10-31 08:10:25,2022-10-31 09:14:59,2022-10-31 09:14:57,2022-10-31 09:14:57,No reviewer assigned,Not labelled,openvantage:feature/pm2,feature/pm2,ai1-backend-prisma,11922,closed,0 days 01:04:32
-67,62,AdamErwee,Added vehicle group to vehicle activity report. Can then search for a specific vehicle group on FE table for vehicle activity summary report.,2022-10-27 07:24:44,2022-11-08 13:32:22,2022-11-08 13:32:20,2022-11-08 13:32:20,No reviewer assigned,APPROVED,openvantage:AI1-1106_ReportFields,AI1-1106_ReportFields,ai1-backend-prisma,11922,closed,12 days 06:07:36
+Ticket: https://app.clickup.com/t/3427985/AI1-756",2022-11-01 10:43:01,2022-11-08 10:12:20,2022-11-08 10:12:15,2022-11-08 10:12:15,WilcoBreedt,APPROVED,openvantage:AI1-756_TimsheetReport,AI1-756_TimsheetReport,ai1-backend-prisma,11924,closed,6 days 23:29:14
+66,63,WilcoBreedt,,2022-10-31 08:10:25,2022-10-31 09:14:59,2022-10-31 09:14:57,2022-10-31 09:14:57,No reviewer assigned,Not labelled,openvantage:feature/pm2,feature/pm2,ai1-backend-prisma,11924,closed,0 days 01:04:32
+67,62,AdamErwee,Added vehicle group to vehicle activity report. Can then search for a specific vehicle group on FE table for vehicle activity summary report.,2022-10-27 07:24:44,2022-11-08 13:32:22,2022-11-08 13:32:20,2022-11-08 13:32:20,No reviewer assigned,APPROVED,openvantage:AI1-1106_ReportFields,AI1-1106_ReportFields,ai1-backend-prisma,11924,closed,12 days 06:07:36
 68,61,AdamErwee,"Changes:
 
 - Added 'isNightShift' boolean to Job datamodel
-- Made changes to solver (vehicle window) for hybrid/single solve to allow for night shift.",2022-10-26 06:26:20,2022-10-26 08:19:36,2022-10-26 08:19:34,2022-10-26 08:19:34,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-212_NightShift,AI1-212_NightShift,ai1-backend-prisma,11922,closed,0 days 01:53:14
+- Made changes to solver (vehicle window) for hybrid/single solve to allow for night shift.",2022-10-26 06:26:20,2022-10-26 08:19:36,2022-10-26 08:19:34,2022-10-26 08:19:34,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-212_NightShift,AI1-212_NightShift,ai1-backend-prisma,11924,closed,0 days 01:53:14
 69,60,AdamErwee,"Minor Change: Went through all the reports to date and removed all decimals on speeds where relevant.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1120",2022-10-21 08:34:34,2022-10-26 08:23:57,2022-10-26 08:23:55,2022-10-26 08:23:55,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1120_ReportDecimals,AI1-1120_ReportDecimals,ai1-backend-prisma,11922,closed,4 days 23:49:21
+Ticket: https://app.clickup.com/t/3427985/AI1-1120",2022-10-21 08:34:34,2022-10-26 08:23:57,2022-10-26 08:23:55,2022-10-26 08:23:55,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1120_ReportDecimals,AI1-1120_ReportDecimals,ai1-backend-prisma,11924,closed,4 days 23:49:21
 70,59,AdamErwee,"# Description: #
 
 Custom query for last position log for vehicle to be used on on vehicle edit. Runs apart from main details query. This allows user to continue on edit screen while query fetches the last position log.
@@ -843,14 +860,14 @@ https://app.clickup.com/t/3427985/AI1-1105
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2022-10-20 11:55:26,2022-10-26 08:25:07,2022-10-26 08:25:05,2022-10-26 08:25:05,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1105_VehicleEdit,AI1-1105_VehicleEdit,ai1-backend-prisma,11922,closed,5 days 20:29:39
-71,58,AdamErwee,Added additional fields to entity query for white labelling.,2022-10-19 14:21:06,2022-10-25 13:15:33,2022-10-25 13:15:30,2022-10-25 13:15:30,No reviewer assigned,READY FOR REVIEW,openvantage:SweeperReportsWhiteLabeling,SweeperReportsWhiteLabeling,ai1-backend-prisma,11922,closed,5 days 22:54:24
+",2022-10-20 11:55:26,2022-10-26 08:25:07,2022-10-26 08:25:05,2022-10-26 08:25:05,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1105_VehicleEdit,AI1-1105_VehicleEdit,ai1-backend-prisma,11924,closed,5 days 20:29:39
+71,58,AdamErwee,Added additional fields to entity query for white labelling.,2022-10-19 14:21:06,2022-10-25 13:15:33,2022-10-25 13:15:30,2022-10-25 13:15:30,No reviewer assigned,READY FOR REVIEW,openvantage:SweeperReportsWhiteLabeling,SweeperReportsWhiteLabeling,ai1-backend-prisma,11924,closed,5 days 22:54:24
 72,57,AdamErwee,"We use entity type to determine configurations on the mobile app, but never added it to the query on BE. 
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1099",2022-10-19 07:30:46,2022-10-19 07:38:58,2022-10-19 07:38:56,2022-10-19 07:38:56,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1099_MobileLoginQuery,AI1-1099_MobileLoginQuery,ai1-backend-prisma,11922,closed,0 days 00:08:10
+Ticket: https://app.clickup.com/t/3427985/AI1-1099",2022-10-19 07:30:46,2022-10-19 07:38:58,2022-10-19 07:38:56,2022-10-19 07:38:56,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1099_MobileLoginQuery,AI1-1099_MobileLoginQuery,ai1-backend-prisma,11924,closed,0 days 00:08:10
 73,56,AdamErwee,"Found and fixed a minor error with start date & reoccurring date calculations. Tested and working.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1109",2022-10-17 14:06:53,2022-10-19 05:20:39,2022-10-19 05:20:35,2022-10-19 05:20:35,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1044_Reoccurrence_Repeat,AI1-1044_Reoccurrence_Repeat,ai1-backend-prisma,11922,closed,1 days 15:13:42
+Ticket: https://app.clickup.com/t/3427985/AI1-1109",2022-10-17 14:06:53,2022-10-19 05:20:39,2022-10-19 05:20:35,2022-10-19 05:20:35,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1044_Reoccurrence_Repeat,AI1-1044_Reoccurrence_Repeat,ai1-backend-prisma,11924,closed,1 days 15:13:42
 74,55,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #

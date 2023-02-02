@@ -1,28 +1,11 @@
 ,number,user.login,body,created_at,updated_at,requested_reviewers,labels,head.label,head.ref,head.repo.name,head.repo.size,state,days-open
-0,154,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1238,2023-01-31 14:58:40,2023-01-31 14:58:43,No reviewer assigned,IN PROGRESS,openvantage:fix/handle_2500_jobs,fix/handle_2500_jobs,ai1-web-react,15311,open,1 days 23:57:34.256644
-30,14,Riley-5,Components built out for onHire and offHire forms to be added into workflows ,2023-01-20 10:10:50,2023-02-02 10:52:37,WilcoBreedt,Not labelled,openvantage:AI-1247_GP_WORKFLOWS,AI-1247_GP_WORKFLOWS,ai1-mobile-rn,4853,open,13 days 04:45:24.256644
+0,154,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1238,2023-01-31 14:58:40,2023-02-02 14:07:24,No reviewer assigned,IN PROGRESS,openvantage:fix/handle_2500_jobs,fix/handle_2500_jobs,ai1-web-react,15318,open,2 days 04:14:32.896237
+30,14,Riley-5,Components built out for onHire and offHire forms to be added into workflows ,2023-01-20 10:10:50,2023-02-02 15:19:25,WilcoBreedt,Not labelled,openvantage:AI-1247_GP_WORKFLOWS,AI-1247_GP_WORKFLOWS,ai1-mobile-rn,4863,open,13 days 09:02:22.896237
 37,7,AdamErwee,"Added call to refetch jobs when user clicks on the ""clipboard"" icon on the jobs map screen. This is a hotfix to allow update of job totals/allocations without call query automatically at set intervals.
 
 ![Uploading Screenshot 2022-10-12 at 12.51.28.png…]()
-",2022-10-12 12:05:58,2022-12-30 11:40:26,WilcoBreedt,DO NOT MERGE,openvantage:AI1-1089_JobRefetch,AI1-1089_JobRefetch,ai1-mobile-rn,4853,open,113 days 02:50:16.256644
-44,85,AdamErwee,"Minor changes to scheduled reporting:
-
-- Added try-catch to prevent error one schedule to stop schedule generation
-- Better error output for faster investigation
-- Code cleanup on some report functions
-
-Ticket: https://app.clickup.com/t/3427985/AI1-1283",2023-02-01 08:59:33,2023-02-01 08:59:36,WilcoBreedt,Not labelled,openvantage:fix_scheduled_reports,fix_scheduled_reports,ai1-backend-prisma,11922,open,1 days 05:56:41.256644
-45,84,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1238,2023-01-31 14:56:59,2023-01-31 14:57:07,No reviewer assigned,IN PROGRESS,openvantage:fix/handle_2500_jobs,fix/handle_2500_jobs,ai1-backend-prisma,11922,open,1 days 23:59:15.256644
-46,83,AdamErwee,"Changed order on payroll summary report to be by registrationNumber, startDate and then startTime.
-
-Ticket: https://app.clickup.com/t/3427985/AI1-1299
-
-",2023-01-31 13:08:07,2023-02-01 06:09:35,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1299_SummaryReportChangeRequest,AI1-1299_SummaryReportChangeRequest,ai1-backend-prisma,11922,open,2 days 01:48:07.256644
-47,82,AdamErwee,"Events mapper now fills in blank locations with the last recorded location before further manipulation. This ensures that the last recorded is more accurate. Reports and FE should now coincide with recorded locations.
-
-Ticket:
-
-https://app.clickup.com/t/3427985/AI1-1298",2023-01-31 10:39:09,2023-01-31 12:40:18,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1298_LastLocation,AI1-1298_LastLocation,ai1-backend-prisma,11922,open,2 days 04:17:05.256644
+",2022-10-12 12:05:58,2022-12-30 11:40:26,WilcoBreedt,DO NOT MERGE,openvantage:AI1-1089_JobRefetch,AI1-1089_JobRefetch,ai1-mobile-rn,4863,open,113 days 07:07:14.896237
+45,84,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1238,2023-01-31 14:56:59,2023-02-02 13:07:49,No reviewer assigned,IN PROGRESS,openvantage:fix/handle_2500_jobs,fix/handle_2500_jobs,ai1-backend-prisma,11924,open,2 days 04:16:13.896237
 75,54,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -66,8 +49,8 @@ https://app.clickup.com/t/3427985/PAN-433
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-02-01 08:11:19,2023-02-02 06:31:56,No reviewer assigned,Not labelled,openvantage:feature/be-api-account-management,feature/be-api-account-management,pangea-prisma-backend,1320,open,1 days 06:44:55.256644
-105,45,WianOV,,2022-12-12 10:59:16,2023-01-10 05:23:56,Faziki,Not labelled,openvantage:small-fixes,small-fixes,otto-mobile-rn,5266,open,52 days 03:56:58.256644
+* Package added/updated, motivation, npm link",2023-02-01 08:11:19,2023-02-02 06:31:56,No reviewer assigned,Not labelled,openvantage:feature/be-api-account-management,feature/be-api-account-management,pangea-prisma-backend,1320,open,1 days 11:01:53.896237
+105,45,WianOV,,2022-12-12 10:59:16,2023-01-10 05:23:56,Faziki,Not labelled,openvantage:small-fixes,small-fixes,otto-mobile-rn,5266,open,52 days 08:13:56.896237
 135,74,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -107,8 +90,8 @@ https://user-images.githubusercontent.com/115209204/215430886-63b91e37-1760-4949
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-30 08:54:06,2023-02-02 06:29:44,No reviewer assigned,Not labelled,openvantage:bugfix/show-errors-onblur,bugfix/show-errors-onblur,pangea-react-web,15106,open,3 days 06:02:08.256644
-274,68,AdamErwee,Fix: Date Filter merge conflicts,2023-02-02 07:39:33,2023-02-02 07:39:35,WilcoBreedt,READY FOR REVIEW,openvantage:VES-258_DateFilter,VES-258_DateFilter,verifeyes-frontend,1155,open,0 days 07:16:41.256644
+* Package added/updated, motivation, npm link",2023-01-30 08:54:06,2023-02-02 06:29:44,No reviewer assigned,Not labelled,openvantage:bugfix/show-errors-onblur,bugfix/show-errors-onblur,pangea-react-web,15106,open,3 days 10:19:06.896237
+274,68,AdamErwee,Fix: Date Filter merge conflicts,2023-02-02 07:39:33,2023-02-02 07:39:35,WilcoBreedt,READY FOR REVIEW,openvantage:VES-258_DateFilter,VES-258_DateFilter,verifeyes-frontend,1155,open,0 days 11:33:39.896237
 279,63,WianOV,"# Please complete the following #
 - Where there are [] mark them with an X i.e [X]
 - Remove all lines with `//` and replace it with the appropriate content for this PR
@@ -156,4 +139,4 @@ This is cypress testing and it is tests it self
 // Please describe here what packages you have added and/or updated in the project with proper motivation.
 
 * // Package added/updated, motivation, npm link
-",2023-01-30 07:56:59,2023-01-30 07:57:02,WilcoBreedt,READY FOR REVIEW,openvantage:E2E-new-testing,E2E-new-testing,verifeyes-frontend,1155,open,3 days 06:59:15.256644
+",2023-01-30 07:56:59,2023-01-30 07:57:02,WilcoBreedt,READY FOR REVIEW,openvantage:E2E-new-testing,E2E-new-testing,verifeyes-frontend,1155,open,3 days 11:16:13.896237
