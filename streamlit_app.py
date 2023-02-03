@@ -141,7 +141,7 @@ with tab3:
          st.metric("Avg Cycle time in hours (90days)", last90days['Hours'].mean().round(2),
                    delta=None, delta_color="normal", help=None, label_visibility="visible")
 
-   st.markdown("**Average time (in hours) for a PR to be merged per repository (past 90 days)**")
+   st.markdown("**Average time for a PR to be merged per repository (past 90 days)**")
    closed_prsper_repo = closed_prs_table.groupby(['Repository'])['Hours'].mean().reset_index(name="count")
    closed_prsper_repo_data = pd.DataFrame()
    closed_prsper_repo_data['Repository'] = closed_prsper_repo['Repository']
@@ -154,7 +154,7 @@ with tab3:
    )
    st.altair_chart(closed_prsper_repo_chart, use_container_width=True)
 
-   st.markdown("**Average time (in hours) for a PR to be merged per reviewer (past 90 days)**")
+   st.markdown("**Average time for a PR to be merged per reviewer (past 90 days)**")
    closed_prsper_reviewer = closed_prs_table.groupby(['Reviewer'])['Hours'].mean().reset_index(name="count")
    closed_prsper_reviewer_data = pd.DataFrame()
    closed_prsper_reviewer_data['Reviewer'] = closed_prsper_reviewer['Reviewer']
