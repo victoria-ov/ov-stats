@@ -687,7 +687,7 @@ https://app.clickup.com/t/3427985/AI1-756
 31,13,AdamErwee,"Sorted jobs according to sequence number and added sequence number to job card.
 
 ![Screenshot 2023-01-09 at 09 54 16](https://user-images.githubusercontent.com/104312350/211285663-83b9c21f-e302-40d0-b958-7d58dccc47ca.png)
-",2023-01-09 10:17:26,2023-01-26 14:33:39,2023-01-26 14:33:34,2023-01-26 14:33:34,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1096_JobSequence,AI1-1096_JobSequence,ai1-mobile-rn,4863,closed,17 days 04:16:08
+",2023-01-09 10:17:26,2023-01-26 14:33:39,2023-01-26 14:33:34,2023-01-26 14:33:34,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1096_JobSequence,AI1-1096_JobSequence,ai1-mobile-rn,4867,closed,17 days 04:16:08
 32,12,AdamErwee,"Calculated the distance between a job's lat-long and the driver's location using the `haversine` library that uses the haversine formula. This can be calculated manually.
 
 The nearby jobs are also sorted ASC by distance before being rendered.
@@ -700,49 +700,49 @@ https://app.clickup.com/t/3427985/AI1-1117
 
 Library:
 
-[haversine](https://www.npmjs.com/package/haversine)",2023-01-03 11:59:05,2023-01-26 14:32:20,2023-01-26 14:32:18,2023-01-26 14:32:18,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1117_NearbyJobs,AI1-1117_NearbyJobs,ai1-mobile-rn,4863,closed,23 days 02:33:13
+[haversine](https://www.npmjs.com/package/haversine)",2023-01-03 11:59:05,2023-01-26 14:32:20,2023-01-26 14:32:18,2023-01-26 14:32:18,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1117_NearbyJobs,AI1-1117_NearbyJobs,ai1-mobile-rn,4867,closed,23 days 02:33:13
 33,11,AdamErwee,"Filtered jobs on the map for sweeper entities to combine consecutive jobs in the same street as one marker. And then rendering these markers with a route.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1190",2022-11-23 10:46:51,2022-12-30 11:39:23,2022-12-19 12:00:33,2022-12-19 12:00:33,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1190_SweeperJobsMap,AI1-1190_SweeperJobsMap,ai1-mobile-rn,4863,closed,26 days 01:13:42
+Ticket: https://app.clickup.com/t/3427985/AI1-1190",2022-11-23 10:46:51,2022-12-30 11:39:23,2022-12-19 12:00:33,2022-12-19 12:00:33,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1190_SweeperJobsMap,AI1-1190_SweeperJobsMap,ai1-mobile-rn,4867,closed,26 days 01:13:42
 34,10,AdamErwee,"Moved NumericalInput fix and Gallery Quality fix changes to master.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1108",2022-10-24 07:59:16,2022-10-25 14:30:24,2022-10-25 14:30:22,2022-10-25 14:30:22,No reviewer assigned,Not labelled,openvantage:AI1-1108_UpdateFromRelease107,AI1-1108_UpdateFromRelease107,ai1-mobile-rn,4863,closed,1 days 06:31:06
-35,9,WilcoBreedt,,2022-10-19 07:47:13,2022-10-19 07:51:01,2022-10-19 07:50:59,2022-10-19 07:50:59,No reviewer assigned,Not labelled,openvantage:feature/waste,feature/waste,ai1-mobile-rn,4863,closed,0 days 00:03:46
+Ticket: https://app.clickup.com/t/3427985/AI1-1108",2022-10-24 07:59:16,2022-10-25 14:30:24,2022-10-25 14:30:22,2022-10-25 14:30:22,No reviewer assigned,Not labelled,openvantage:AI1-1108_UpdateFromRelease107,AI1-1108_UpdateFromRelease107,ai1-mobile-rn,4867,closed,1 days 06:31:06
+35,9,WilcoBreedt,,2022-10-19 07:47:13,2022-10-19 07:51:01,2022-10-19 07:50:59,2022-10-19 07:50:59,No reviewer assigned,Not labelled,openvantage:feature/waste,feature/waste,ai1-mobile-rn,4867,closed,0 days 00:03:46
 36,8,AdamErwee,"Added the next 48 hours jobs to the itinerary if the user's entityType is SWEEPERS. Needed to adapt the login query and query fields to achieve this.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1099",2022-10-19 07:33:37,2022-10-19 07:50:33,2022-10-19 07:50:31,2022-10-19 07:50:31,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1099_48HourItinerary,AI1-1099_48HourItinerary,ai1-mobile-rn,4863,closed,0 days 00:16:54
+Ticket: https://app.clickup.com/t/3427985/AI1-1099",2022-10-19 07:33:37,2022-10-19 07:50:33,2022-10-19 07:50:31,2022-10-19 07:50:31,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1099_48HourItinerary,AI1-1099_48HourItinerary,ai1-mobile-rn,4867,closed,0 days 00:16:54
 38,6,AdamErwee,"Utilise distance from nearbyJobs query and show it on the near by jobs cards (see below):
 
 <img width=""283"" alt=""Screenshot 2022-10-07 at 11 28 04"" src=""https://user-images.githubusercontent.com/104312350/194521906-c0a0e640-d034-4b2d-ba35-ee20165ef0e7.png"">
 
 Converted from meters -> miles.
-",2022-10-07 09:30:23,2022-10-10 08:33:18,2022-10-10 08:33:16,2022-10-10 08:33:16,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1076_Mileage,AI1-1076_Mileage,ai1-mobile-rn,4863,closed,2 days 23:02:53
-39,5,WilcoBreedt,,2022-09-20 12:26:42,2022-10-03 11:24:31,2022-10-03 11:24:29,2022-10-03 11:24:29,No reviewer assigned,Not labelled,openvantage:chore/ffcSweeperes,chore/ffcSweeperes,ai1-mobile-rn,4863,closed,12 days 22:57:47
-40,4,AdamErwee,Compressing/reducing photo size when user selects photos from phone gallery. Reduced size from 5mb to 700kb. This should reduce report generation time and prevent timeout.,2022-09-12 08:04:16,2022-10-10 08:33:56,2022-10-10 08:33:55,2022-10-10 08:33:55,No reviewer assigned,APPROVED,openvantage:AI1-969_PhotoCompression,AI1-969_PhotoCompression,ai1-mobile-rn,4863,closed,28 days 00:29:39
-41,3,FrikanRwOV,https://app.clickup.com/t/3427985/AI1-857,2022-08-24 04:56:22,2022-08-24 05:02:22,2022-08-24 05:02:19,2022-08-24 05:02:19,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-857_JM-clark-Work-flow---On-the-final-signature-screen-can-we-have-a-information-button-too-allow-the-driver-to-show-the-informations-related-to-the-job-Ie-the-Job-details-on-the-card_Frikan-Erwee,AI1-857_JM-clark-Work-flow---On-the-final-signature-screen-can-we-have-a-information-button-too-allow-the-driver-to-show-the-informations-related-to-the-job-Ie-the-Job-details-on-the-card_Frikan-Erwee,ai1-mobile-rn,4863,closed,0 days 00:05:57
-42,2,Decs42,,2022-08-15 14:15:13,2022-08-17 19:34:23,2022-08-17 19:34:17,2022-08-17 19:34:17,WilcoBreedt,READY FOR REVIEW,openvantage:fix/CU-2ptnzkr_endOfDay,fix/CU-2ptnzkr_endOfDay,ai1-mobile-rn,4863,closed,2 days 05:19:04
-43,1,WianOV,Force dark mode to not change text so it can be displayed in text fields.,2022-08-11 07:18:48,2023-01-09 08:40:23,2023-01-09 08:40:13,,FrikanRwOV,CHANGES REQUESTED,openvantage:Drak-mode,Drak-mode,ai1-mobile-rn,4863,closed,
+",2022-10-07 09:30:23,2022-10-10 08:33:18,2022-10-10 08:33:16,2022-10-10 08:33:16,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1076_Mileage,AI1-1076_Mileage,ai1-mobile-rn,4867,closed,2 days 23:02:53
+39,5,WilcoBreedt,,2022-09-20 12:26:42,2022-10-03 11:24:31,2022-10-03 11:24:29,2022-10-03 11:24:29,No reviewer assigned,Not labelled,openvantage:chore/ffcSweeperes,chore/ffcSweeperes,ai1-mobile-rn,4867,closed,12 days 22:57:47
+40,4,AdamErwee,Compressing/reducing photo size when user selects photos from phone gallery. Reduced size from 5mb to 700kb. This should reduce report generation time and prevent timeout.,2022-09-12 08:04:16,2022-10-10 08:33:56,2022-10-10 08:33:55,2022-10-10 08:33:55,No reviewer assigned,APPROVED,openvantage:AI1-969_PhotoCompression,AI1-969_PhotoCompression,ai1-mobile-rn,4867,closed,28 days 00:29:39
+41,3,FrikanRwOV,https://app.clickup.com/t/3427985/AI1-857,2022-08-24 04:56:22,2022-08-24 05:02:22,2022-08-24 05:02:19,2022-08-24 05:02:19,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-857_JM-clark-Work-flow---On-the-final-signature-screen-can-we-have-a-information-button-too-allow-the-driver-to-show-the-informations-related-to-the-job-Ie-the-Job-details-on-the-card_Frikan-Erwee,AI1-857_JM-clark-Work-flow---On-the-final-signature-screen-can-we-have-a-information-button-too-allow-the-driver-to-show-the-informations-related-to-the-job-Ie-the-Job-details-on-the-card_Frikan-Erwee,ai1-mobile-rn,4867,closed,0 days 00:05:57
+42,2,Decs42,,2022-08-15 14:15:13,2022-08-17 19:34:23,2022-08-17 19:34:17,2022-08-17 19:34:17,WilcoBreedt,READY FOR REVIEW,openvantage:fix/CU-2ptnzkr_endOfDay,fix/CU-2ptnzkr_endOfDay,ai1-mobile-rn,4867,closed,2 days 05:19:04
+43,1,WianOV,Force dark mode to not change text so it can be displayed in text fields.,2022-08-11 07:18:48,2023-01-09 08:40:23,2023-01-09 08:40:13,,FrikanRwOV,CHANGES REQUESTED,openvantage:Drak-mode,Drak-mode,ai1-mobile-rn,4867,closed,
 44,85,AdamErwee,"Minor changes to scheduled reporting:
 
 - Added try-catch to prevent error one schedule to stop schedule generation
 - Better error output for faster investigation
 - Code cleanup on some report functions
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1283",2023-02-01 08:59:33,2023-02-02 13:28:08,2023-02-02 13:28:05,2023-02-02 13:28:05,No reviewer assigned,Not labelled,openvantage:fix_scheduled_reports,fix_scheduled_reports,ai1-backend-prisma,11924,closed,1 days 04:28:32
+Ticket: https://app.clickup.com/t/3427985/AI1-1283",2023-02-01 08:59:33,2023-02-02 13:28:08,2023-02-02 13:28:05,2023-02-02 13:28:05,No reviewer assigned,Not labelled,openvantage:fix_scheduled_reports,fix_scheduled_reports,ai1-backend-prisma,11931,closed,1 days 04:28:32
 46,83,AdamErwee,"Changed order on payroll summary report to be by registrationNumber, startDate and then startTime.
 
 Ticket: https://app.clickup.com/t/3427985/AI1-1299
 
-",2023-01-31 13:08:07,2023-02-02 13:14:06,2023-02-02 13:14:03,2023-02-02 13:14:03,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1299_SummaryReportChangeRequest,AI1-1299_SummaryReportChangeRequest,ai1-backend-prisma,11924,closed,2 days 00:05:56
+",2023-01-31 13:08:07,2023-02-02 13:14:06,2023-02-02 13:14:03,2023-02-02 13:14:03,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1299_SummaryReportChangeRequest,AI1-1299_SummaryReportChangeRequest,ai1-backend-prisma,11931,closed,2 days 00:05:56
 47,82,AdamErwee,"Events mapper now fills in blank locations with the last recorded location before further manipulation. This ensures that the last recorded is more accurate. Reports and FE should now coincide with recorded locations.
 
 Ticket:
 
-https://app.clickup.com/t/3427985/AI1-1298",2023-01-31 10:39:09,2023-02-02 13:10:51,2023-02-02 13:10:46,2023-02-02 13:10:46,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1298_LastLocation,AI1-1298_LastLocation,ai1-backend-prisma,11924,closed,2 days 02:31:37
-48,81,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1279,2023-01-20 09:49:35,2023-01-30 13:46:34,2023-01-30 13:46:27,2023-01-30 13:46:27,No reviewer assigned,APPROVED,openvantage:fix/include_nightshift_daily_extract,fix/include_nightshift_daily_extract,ai1-backend-prisma,11924,closed,10 days 03:56:52
+https://app.clickup.com/t/3427985/AI1-1298",2023-01-31 10:39:09,2023-02-02 13:10:51,2023-02-02 13:10:46,2023-02-02 13:10:46,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1298_LastLocation,AI1-1298_LastLocation,ai1-backend-prisma,11931,closed,2 days 02:31:37
+48,81,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1279,2023-01-20 09:49:35,2023-01-30 13:46:34,2023-01-30 13:46:27,2023-01-30 13:46:27,No reviewer assigned,APPROVED,openvantage:fix/include_nightshift_daily_extract,fix/include_nightshift_daily_extract,ai1-backend-prisma,11931,closed,10 days 03:56:52
 49,80,AdamErwee,"Added query that receives an array of vehicle ids, startDate, and endDate and gets the last location relevant to these parameters.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1206",2023-01-18 07:20:52,2023-01-19 05:27:26,2023-01-19 05:27:22,2023-01-19 05:27:22,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1206_Waste_DashboardMapVehicles,AI1-1206_Waste_DashboardMapVehicles,ai1-backend-prisma,11924,closed,0 days 22:06:30
+Ticket: https://app.clickup.com/t/3427985/AI1-1206",2023-01-18 07:20:52,2023-01-19 05:27:26,2023-01-19 05:27:22,2023-01-19 05:27:22,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1206_Waste_DashboardMapVehicles,AI1-1206_Waste_DashboardMapVehicles,ai1-backend-prisma,11931,closed,0 days 22:06:30
 50,79,AdamErwee,"Added grouping and subheadings for groupings to report. Also made changes to total duration.
 
 Ticket: 
@@ -750,22 +750,22 @@ Ticket:
 https://app.clickup.com/t/3427985/AI1-1262
 
 <img width=""1242"" alt=""Screenshot 2023-01-11 at 11 54 54"" src=""https://user-images.githubusercontent.com/104312350/211774995-642e2192-868e-4e13-8790-288b77b9ffec.png"">
-",2023-01-11 09:55:48,2023-01-19 09:30:23,2023-01-19 09:30:21,2023-01-19 09:30:21,WilcoBreedt,APPROVED,openvantage:AI1-1262_PayrollSummaryChanges,AI1-1262_PayrollSummaryChanges,ai1-backend-prisma,11924,closed,7 days 23:34:33
+",2023-01-11 09:55:48,2023-01-19 09:30:23,2023-01-19 09:30:21,2023-01-19 09:30:21,WilcoBreedt,APPROVED,openvantage:AI1-1262_PayrollSummaryChanges,AI1-1262_PayrollSummaryChanges,ai1-backend-prisma,11931,closed,7 days 23:34:33
 51,78,AdamErwee,"Grouping on Payroll Detail report and added summary heading of this grouping per vehicle.
 
 <img width=""1240"" alt=""Screenshot 2023-01-11 at 10 59 44"" src=""https://user-images.githubusercontent.com/104312350/211762927-2b9f5a0b-fc58-4163-9796-25d4202d0017.png"">
-",2023-01-11 09:01:27,2023-01-19 05:28:58,2023-01-19 05:28:56,2023-01-19 05:28:56,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1263_PayrollDetail,AI1-1263_PayrollDetail,ai1-backend-prisma,11924,closed,7 days 20:27:29
+",2023-01-11 09:01:27,2023-01-19 05:28:58,2023-01-19 05:28:56,2023-01-19 05:28:56,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1263_PayrollDetail,AI1-1263_PayrollDetail,ai1-backend-prisma,11931,closed,7 days 20:27:29
 52,77,AdamErwee,"Added fix to monthly day on reoccurrence dates
 
 Ticket:
 
-https://app.clickup.com/t/3427985/AI1-1127",2023-01-05 06:30:03,2023-01-06 13:26:17,2023-01-06 13:26:11,2023-01-06 13:26:11,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonthDay_Fix,AI1-1127_ReoccurringMonthDay_Fix,ai1-backend-prisma,11924,closed,1 days 06:56:08
-53,76,AdamErwee,Literally adjusted dailyExtract logic to remove Saturday/Sunday check. This is upon request to generate Saturday jobs manually. ,2023-01-04 07:10:35,2023-01-05 10:33:09,2023-01-05 10:33:07,2023-01-05 10:33:07,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1256_Daily_Extract_Job,AI1-1256_Daily_Extract_Job,ai1-backend-prisma,11924,closed,1 days 03:22:32
+https://app.clickup.com/t/3427985/AI1-1127",2023-01-05 06:30:03,2023-01-06 13:26:17,2023-01-06 13:26:11,2023-01-06 13:26:11,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonthDay_Fix,AI1-1127_ReoccurringMonthDay_Fix,ai1-backend-prisma,11931,closed,1 days 06:56:08
+53,76,AdamErwee,Literally adjusted dailyExtract logic to remove Saturday/Sunday check. This is upon request to generate Saturday jobs manually. ,2023-01-04 07:10:35,2023-01-05 10:33:09,2023-01-05 10:33:07,2023-01-05 10:33:07,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1256_Daily_Extract_Job,AI1-1256_Daily_Extract_Job,ai1-backend-prisma,11931,closed,1 days 03:22:32
 54,75,AdamErwee,"Query setup for payroll summary report.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1184",2022-12-28 05:23:14,2022-12-29 06:14:46,2022-12-29 06:14:44,2022-12-29 06:14:44,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1184_Payroll_Summary,AI1-1184_Payroll_Summary,ai1-backend-prisma,11924,closed,1 days 00:51:30
+Ticket: https://app.clickup.com/t/3427985/AI1-1184",2022-12-28 05:23:14,2022-12-29 06:14:46,2022-12-29 06:14:44,2022-12-29 06:14:44,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1184_Payroll_Summary,AI1-1184_Payroll_Summary,ai1-backend-prisma,11931,closed,1 days 00:51:30
 55,74,AdamErwee,"Ticket:
-https://app.clickup.com/t/3427985/AI1-1183",2022-12-13 12:55:02,2022-12-19 12:00:10,2022-12-19 12:00:10,2022-12-19 12:00:10,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1183_Payroll_Detail,AI1-1183_Payroll_Detail,ai1-backend-prisma,11924,closed,5 days 23:05:08
+https://app.clickup.com/t/3427985/AI1-1183",2022-12-13 12:55:02,2022-12-19 12:00:10,2022-12-19 12:00:10,2022-12-19 12:00:10,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1183_Payroll_Detail,AI1-1183_Payroll_Detail,ai1-backend-prisma,11931,closed,5 days 23:05:08
 56,73,AdamErwee,"# Description: #
 
 Added a custom query that handles filters/sorting for Reoccurring Jobs Table. Does not allow search functionality just yet.
@@ -800,40 +800,40 @@ https://app.clickup.com/t/3427985/AI1-1126
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2022-12-06 09:09:39,2022-12-29 06:19:10,2022-12-29 06:19:08,2022-12-29 06:19:08,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1126_ReoccurringStatus,AI1-1126_ReoccurringStatus,ai1-backend-prisma,11924,closed,22 days 21:09:29
+",2022-12-06 09:09:39,2022-12-29 06:19:10,2022-12-29 06:19:08,2022-12-29 06:19:08,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1126_ReoccurringStatus,AI1-1126_ReoccurringStatus,ai1-backend-prisma,11931,closed,22 days 21:09:29
 57,72,AdamErwee,"Minor fixes made to the sweeper summary and detail report made on CSV and EXCEL. I suspect that these errors occurred from merge conflict because testing prior to the original PR was successful.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-875",2022-11-23 13:49:07,2022-12-05 08:07:21,2022-12-05 08:07:19,2022-12-05 08:07:19,WilcoBreedt,Not labelled,openvantage:AI1-875_SweeperReportFixes,AI1-875_SweeperReportFixes,ai1-backend-prisma,11924,closed,11 days 18:18:12
+Ticket: https://app.clickup.com/t/3427985/AI1-875",2022-11-23 13:49:07,2022-12-05 08:07:21,2022-12-05 08:07:19,2022-12-05 08:07:19,WilcoBreedt,Not labelled,openvantage:AI1-875_SweeperReportFixes,AI1-875_SweeperReportFixes,ai1-backend-prisma,11931,closed,11 days 18:18:12
 58,71,AdamErwee,"Added logic to handle the day of the week repeat per month on reoccurring dates.
 
 Ticket: https://app.clickup.com/t/3427985/AI1-1127
 
-",2022-11-14 06:25:23,2022-12-05 08:05:04,2022-12-05 08:05:02,2022-12-05 08:05:02,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonthDay,AI1-1127_ReoccurringMonthDay,ai1-backend-prisma,11924,closed,21 days 01:39:39
-59,70,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1157,2022-11-10 14:58:36,2022-11-16 06:48:26,2022-11-16 06:48:25,2022-11-16 06:48:24,No reviewer assigned,Not labelled,openvantage:fix/location_names,fix/location_names,ai1-backend-prisma,11924,closed,5 days 15:49:48
-60,69,WilcoBreedt,,2022-11-08 07:38:31,2022-11-08 10:18:14,2022-11-08 10:18:12,2022-11-08 10:18:12,No reviewer assigned,Not labelled,openvantage:feature/waste_consolidated_bin_holder_view,feature/waste_consolidated_bin_holder_view,ai1-backend-prisma,11924,closed,0 days 02:39:41
+",2022-11-14 06:25:23,2022-12-05 08:05:04,2022-12-05 08:05:02,2022-12-05 08:05:02,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1127_ReoccurringMonthDay,AI1-1127_ReoccurringMonthDay,ai1-backend-prisma,11931,closed,21 days 01:39:39
+59,70,WilcoBreedt,https://app.clickup.com/t/3427985/AI1-1157,2022-11-10 14:58:36,2022-11-16 06:48:26,2022-11-16 06:48:25,2022-11-16 06:48:24,No reviewer assigned,Not labelled,openvantage:fix/location_names,fix/location_names,ai1-backend-prisma,11931,closed,5 days 15:49:48
+60,69,WilcoBreedt,,2022-11-08 07:38:31,2022-11-08 10:18:14,2022-11-08 10:18:12,2022-11-08 10:18:12,No reviewer assigned,Not labelled,openvantage:feature/waste_consolidated_bin_holder_view,feature/waste_consolidated_bin_holder_view,ai1-backend-prisma,11931,closed,0 days 02:39:41
 61,68,AdamErwee,"- Made logos bigger to fit entire header space
 - Adjusted white labelling and added it where missing
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1115",2022-11-08 05:56:15,2022-11-08 10:17:57,2022-11-08 10:17:55,2022-11-08 10:17:55,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1115_ReportLogos,AI1-1115_ReportLogos,ai1-backend-prisma,11924,closed,0 days 04:21:40
+Ticket: https://app.clickup.com/t/3427985/AI1-1115",2022-11-08 05:56:15,2022-11-08 10:17:57,2022-11-08 10:17:55,2022-11-08 10:17:55,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1115_ReportLogos,AI1-1115_ReportLogos,ai1-backend-prisma,11931,closed,0 days 04:21:40
 62,67,AdamErwee,"BE setup for planned vs actual mileage report.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-736",2022-11-04 12:02:37,2022-11-09 10:13:42,2022-11-09 10:13:40,2022-11-09 10:13:40,WilcoBreedt,APPROVED,openvantage:AI1-736_ActualVsPlannedMileage,AI1-736_ActualVsPlannedMileage,ai1-backend-prisma,11924,closed,4 days 22:11:03
-63,66,WilcoBreedt,,2022-11-04 11:57:56,2022-11-08 10:15:46,2022-11-08 10:15:44,2022-11-08 10:15:44,No reviewer assigned,Not labelled,openvantage:feature/waste_speed_complete,feature/waste_speed_complete,ai1-backend-prisma,11924,closed,3 days 22:17:48
+Ticket: https://app.clickup.com/t/3427985/AI1-736",2022-11-04 12:02:37,2022-11-09 10:13:42,2022-11-09 10:13:40,2022-11-09 10:13:40,WilcoBreedt,APPROVED,openvantage:AI1-736_ActualVsPlannedMileage,AI1-736_ActualVsPlannedMileage,ai1-backend-prisma,11931,closed,4 days 22:11:03
+63,66,WilcoBreedt,,2022-11-04 11:57:56,2022-11-08 10:15:46,2022-11-08 10:15:44,2022-11-08 10:15:44,No reviewer assigned,Not labelled,openvantage:feature/waste_speed_complete,feature/waste_speed_complete,ai1-backend-prisma,11931,closed,3 days 22:17:48
 64,65,AdamErwee,"BE setup for planned vs actual jobs completed report.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-729",2022-11-03 08:02:11,2022-11-08 13:32:57,2022-11-08 13:32:52,2022-11-08 13:32:52,No reviewer assigned,APPROVED,openvantage:AI1-729_ActualVsPlannedJobs,AI1-729_ActualVsPlannedJobs,ai1-backend-prisma,11924,closed,5 days 05:30:41
+Ticket: https://app.clickup.com/t/3427985/AI1-729",2022-11-03 08:02:11,2022-11-08 13:32:57,2022-11-08 13:32:52,2022-11-08 13:32:52,No reviewer assigned,APPROVED,openvantage:AI1-729_ActualVsPlannedJobs,AI1-729_ActualVsPlannedJobs,ai1-backend-prisma,11931,closed,5 days 05:30:41
 65,64,AdamErwee,"BE setup for timesheet report.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-756",2022-11-01 10:43:01,2022-11-08 10:12:20,2022-11-08 10:12:15,2022-11-08 10:12:15,WilcoBreedt,APPROVED,openvantage:AI1-756_TimsheetReport,AI1-756_TimsheetReport,ai1-backend-prisma,11924,closed,6 days 23:29:14
-66,63,WilcoBreedt,,2022-10-31 08:10:25,2022-10-31 09:14:59,2022-10-31 09:14:57,2022-10-31 09:14:57,No reviewer assigned,Not labelled,openvantage:feature/pm2,feature/pm2,ai1-backend-prisma,11924,closed,0 days 01:04:32
-67,62,AdamErwee,Added vehicle group to vehicle activity report. Can then search for a specific vehicle group on FE table for vehicle activity summary report.,2022-10-27 07:24:44,2022-11-08 13:32:22,2022-11-08 13:32:20,2022-11-08 13:32:20,No reviewer assigned,APPROVED,openvantage:AI1-1106_ReportFields,AI1-1106_ReportFields,ai1-backend-prisma,11924,closed,12 days 06:07:36
+Ticket: https://app.clickup.com/t/3427985/AI1-756",2022-11-01 10:43:01,2022-11-08 10:12:20,2022-11-08 10:12:15,2022-11-08 10:12:15,WilcoBreedt,APPROVED,openvantage:AI1-756_TimsheetReport,AI1-756_TimsheetReport,ai1-backend-prisma,11931,closed,6 days 23:29:14
+66,63,WilcoBreedt,,2022-10-31 08:10:25,2022-10-31 09:14:59,2022-10-31 09:14:57,2022-10-31 09:14:57,No reviewer assigned,Not labelled,openvantage:feature/pm2,feature/pm2,ai1-backend-prisma,11931,closed,0 days 01:04:32
+67,62,AdamErwee,Added vehicle group to vehicle activity report. Can then search for a specific vehicle group on FE table for vehicle activity summary report.,2022-10-27 07:24:44,2022-11-08 13:32:22,2022-11-08 13:32:20,2022-11-08 13:32:20,No reviewer assigned,APPROVED,openvantage:AI1-1106_ReportFields,AI1-1106_ReportFields,ai1-backend-prisma,11931,closed,12 days 06:07:36
 68,61,AdamErwee,"Changes:
 
 - Added 'isNightShift' boolean to Job datamodel
-- Made changes to solver (vehicle window) for hybrid/single solve to allow for night shift.",2022-10-26 06:26:20,2022-10-26 08:19:36,2022-10-26 08:19:34,2022-10-26 08:19:34,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-212_NightShift,AI1-212_NightShift,ai1-backend-prisma,11924,closed,0 days 01:53:14
+- Made changes to solver (vehicle window) for hybrid/single solve to allow for night shift.",2022-10-26 06:26:20,2022-10-26 08:19:36,2022-10-26 08:19:34,2022-10-26 08:19:34,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-212_NightShift,AI1-212_NightShift,ai1-backend-prisma,11931,closed,0 days 01:53:14
 69,60,AdamErwee,"Minor Change: Went through all the reports to date and removed all decimals on speeds where relevant.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1120",2022-10-21 08:34:34,2022-10-26 08:23:57,2022-10-26 08:23:55,2022-10-26 08:23:55,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1120_ReportDecimals,AI1-1120_ReportDecimals,ai1-backend-prisma,11924,closed,4 days 23:49:21
+Ticket: https://app.clickup.com/t/3427985/AI1-1120",2022-10-21 08:34:34,2022-10-26 08:23:57,2022-10-26 08:23:55,2022-10-26 08:23:55,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1120_ReportDecimals,AI1-1120_ReportDecimals,ai1-backend-prisma,11931,closed,4 days 23:49:21
 70,59,AdamErwee,"# Description: #
 
 Custom query for last position log for vehicle to be used on on vehicle edit. Runs apart from main details query. This allows user to continue on edit screen while query fetches the last position log.
@@ -860,14 +860,14 @@ https://app.clickup.com/t/3427985/AI1-1105
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules (npm package updates)
-",2022-10-20 11:55:26,2022-10-26 08:25:07,2022-10-26 08:25:05,2022-10-26 08:25:05,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1105_VehicleEdit,AI1-1105_VehicleEdit,ai1-backend-prisma,11924,closed,5 days 20:29:39
-71,58,AdamErwee,Added additional fields to entity query for white labelling.,2022-10-19 14:21:06,2022-10-25 13:15:33,2022-10-25 13:15:30,2022-10-25 13:15:30,No reviewer assigned,READY FOR REVIEW,openvantage:SweeperReportsWhiteLabeling,SweeperReportsWhiteLabeling,ai1-backend-prisma,11924,closed,5 days 22:54:24
+",2022-10-20 11:55:26,2022-10-26 08:25:07,2022-10-26 08:25:05,2022-10-26 08:25:05,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1105_VehicleEdit,AI1-1105_VehicleEdit,ai1-backend-prisma,11931,closed,5 days 20:29:39
+71,58,AdamErwee,Added additional fields to entity query for white labelling.,2022-10-19 14:21:06,2022-10-25 13:15:33,2022-10-25 13:15:30,2022-10-25 13:15:30,No reviewer assigned,READY FOR REVIEW,openvantage:SweeperReportsWhiteLabeling,SweeperReportsWhiteLabeling,ai1-backend-prisma,11931,closed,5 days 22:54:24
 72,57,AdamErwee,"We use entity type to determine configurations on the mobile app, but never added it to the query on BE. 
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1099",2022-10-19 07:30:46,2022-10-19 07:38:58,2022-10-19 07:38:56,2022-10-19 07:38:56,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1099_MobileLoginQuery,AI1-1099_MobileLoginQuery,ai1-backend-prisma,11924,closed,0 days 00:08:10
+Ticket: https://app.clickup.com/t/3427985/AI1-1099",2022-10-19 07:30:46,2022-10-19 07:38:58,2022-10-19 07:38:56,2022-10-19 07:38:56,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1099_MobileLoginQuery,AI1-1099_MobileLoginQuery,ai1-backend-prisma,11931,closed,0 days 00:08:10
 73,56,AdamErwee,"Found and fixed a minor error with start date & reoccurring date calculations. Tested and working.
 
-Ticket: https://app.clickup.com/t/3427985/AI1-1109",2022-10-17 14:06:53,2022-10-19 05:20:39,2022-10-19 05:20:35,2022-10-19 05:20:35,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1044_Reoccurrence_Repeat,AI1-1044_Reoccurrence_Repeat,ai1-backend-prisma,11924,closed,1 days 15:13:42
+Ticket: https://app.clickup.com/t/3427985/AI1-1109",2022-10-17 14:06:53,2022-10-19 05:20:39,2022-10-19 05:20:35,2022-10-19 05:20:35,No reviewer assigned,READY FOR REVIEW,openvantage:AI1-1044_Reoccurrence_Repeat,AI1-1044_Reoccurrence_Repeat,ai1-backend-prisma,11931,closed,1 days 15:13:42
 74,55,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -2113,7 +2113,51 @@ Made styling fixes
 - Dropdown
 - personal details 
 - My agreement",2022-09-21 08:12:55,2022-10-31 08:08:50,2022-09-21 12:13:53,2022-09-21 12:13:53,No reviewer assigned,REVIEW NEEDED,openvantage:data-maping,data-maping,otto-mobile-rn,5266,closed,0 days 04:00:58
-136,73,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+136,75,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+
+# Description: #
+
+User Permissions - Users' Feature Allocation
+
+# Ticket: #
+
+[PAN-596](https://app.clickup.com/t/3427985/PAN-596)
+
+# Type of change: #
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [x] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
+
+# How Has This Been Tested: #
+
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Provide screenshots and/or video of the functionality. Please also list any relevant details for your test configuration. Form values etc.
+
+* Changed permissions on my user and logged in to ensure permission access is accurate.
+![image](https://user-images.githubusercontent.com/114610397/216529662-8a0e7b41-a3ba-42dc-ad5c-a2b84bdbc958.png)
+ 
+* Step 2
+* Can also include a video recording
+
+# Checklist:#
+- [ x] My code follows the style guidelines of this project
+- [ x] I have performed a self-review of my own code
+- [ x] I have removed any unused code that I might have refactored
+- [ x] I have commented my code, particularly in hard-to-understand areas
+- [ x] I have made corresponding changes to the documentation
+- [ x] My changes generate no new warnings
+- [ ] I have notified project leads about any environmental file changes/updates
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ x] Any dependent changes have been merged and published in downstream modules
+
+# Packages Added / Updated: #
+
+Please describe here what packages you have added and/or updated in the project with proper motivation.
+
+* Package added/updated, motivation, npm link",2023-02-03 06:38:29,2023-02-03 07:41:22,2023-02-03 07:39:51,2023-02-03 07:39:51,No reviewer assigned,Not labelled,openvantage:feature/PAN-596,feature/PAN-596,pangea-react-web,15112,closed,0 days 01:01:22
+138,73,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2152,8 +2196,8 @@ https://user-images.githubusercontent.com/115209204/215061956-910cca06-4170-4ff1
 
 ""@apollo/react-testing"": ""^^3.1.4"" > allows us to access Apollo MockProvider
 ""storybook-addon-apollo-client"": ""^4.0.13"" > used to mock Apollo queries
-",2023-01-27 09:27:35,2023-01-30 07:12:14,2023-01-30 07:12:08,2023-01-30 07:12:08,No reviewer assigned,Not labelled,openvantage:feature/components-docs,feature/components-docs,pangea-react-web,15106,closed,2 days 21:44:33
-137,72,Oratile-Mlambo,"# Description: #
+",2023-01-27 09:27:35,2023-01-30 07:12:14,2023-01-30 07:12:08,2023-01-30 07:12:08,No reviewer assigned,Not labelled,openvantage:feature/components-docs,feature/components-docs,pangea-react-web,15112,closed,2 days 21:44:33
+139,72,Oratile-Mlambo,"# Description: #
 
 Feature: Added per pool contribution config for voice & text
 Bug fixes: Testing feedback
@@ -2193,8 +2237,8 @@ https://app.clickup.com/t/3427985/PAN-581
 
 # Packages Added / Updated: #
 
-N/A",2023-01-27 07:09:00,2023-01-27 07:59:01,2023-01-27 07:58:56,2023-01-27 07:58:56,inno-0,Not labelled,openvantage:feature/voice-and-test-per-pool-contribution,feature/voice-and-test-per-pool-contribution,pangea-react-web,15106,closed,0 days 00:49:56
-138,71,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+N/A",2023-01-27 07:09:00,2023-01-27 07:59:01,2023-01-27 07:58:56,2023-01-27 07:58:56,inno-0,Not labelled,openvantage:feature/voice-and-test-per-pool-contribution,feature/voice-and-test-per-pool-contribution,pangea-react-web,15112,closed,0 days 00:49:56
+140,71,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2233,8 +2277,8 @@ https://user-images.githubusercontent.com/115209204/214774860-57b7714d-57c7-44d1
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-26 06:55:22,2023-01-27 07:24:52,2023-01-27 07:24:44,2023-01-27 07:24:44,Oratile-Mlambo,Not labelled,openvantage:bugfix/sso-buttons-errors,bugfix/sso-buttons-errors,pangea-react-web,15106,closed,1 days 00:29:22
-139,70,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2023-01-26 06:55:22,2023-01-27 07:24:52,2023-01-27 07:24:44,2023-01-27 07:24:44,Oratile-Mlambo,Not labelled,openvantage:bugfix/sso-buttons-errors,bugfix/sso-buttons-errors,pangea-react-web,15112,closed,1 days 00:29:22
+141,70,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2273,8 +2317,8 @@ https://user-images.githubusercontent.com/115209204/214574134-d70e1a5b-fbab-4984
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-25 13:12:06,2023-01-27 07:24:25,2023-01-27 07:24:15,2023-01-27 07:24:15,Oratile-Mlambo,Not labelled,openvantage:bugfix/profile-validation-fix,bugfix/profile-validation-fix,pangea-react-web,15106,closed,1 days 18:12:09
-140,69,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2023-01-25 13:12:06,2023-01-27 07:24:25,2023-01-27 07:24:15,2023-01-27 07:24:15,Oratile-Mlambo,Not labelled,openvantage:bugfix/profile-validation-fix,bugfix/profile-validation-fix,pangea-react-web,15112,closed,1 days 18:12:09
+142,69,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2315,8 +2359,8 @@ https://app.clickup.com/t/3427985/PAN-577
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-25 12:45:20,2023-01-27 08:10:43,2023-01-27 08:10:39,2023-01-27 08:10:38,Oratile-Mlambo,Not labelled,openvantage:bugfix/align-sso-buttons,bugfix/align-sso-buttons,pangea-react-web,15106,closed,1 days 19:25:18
-141,68,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2023-01-25 12:45:20,2023-01-27 08:10:43,2023-01-27 08:10:39,2023-01-27 08:10:38,Oratile-Mlambo,Not labelled,openvantage:bugfix/align-sso-buttons,bugfix/align-sso-buttons,pangea-react-web,15112,closed,1 days 19:25:18
+143,68,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2360,8 +2404,8 @@ https://user-images.githubusercontent.com/115209204/214528015-87140869-9b9e-40b6
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-25 09:34:08,2023-01-27 07:23:47,2023-01-27 07:23:42,2023-01-27 07:23:42,werner-openvantage,Not labelled,openvantage:bugfix/clear-filters,bugfix/clear-filters,pangea-react-web,15106,closed,1 days 21:49:34
-142,67,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2023-01-25 09:34:08,2023-01-27 07:23:47,2023-01-27 07:23:42,2023-01-27 07:23:42,werner-openvantage,Not labelled,openvantage:bugfix/clear-filters,bugfix/clear-filters,pangea-react-web,15112,closed,1 days 21:49:34
+144,67,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2400,8 +2444,8 @@ https://user-images.githubusercontent.com/115209204/214496199-b6b7452b-3943-49f1
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-24 12:50:18,2023-01-27 07:23:23,2023-01-27 07:23:18,2023-01-27 07:23:18,Oratile-Mlambo,Not labelled,openvantage:bugfix/burger-menu,bugfix/burger-menu,pangea-react-web,15106,closed,2 days 18:33:00
-143,66,werner-openvantage,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2023-01-24 12:50:18,2023-01-27 07:23:23,2023-01-27 07:23:18,2023-01-27 07:23:18,Oratile-Mlambo,Not labelled,openvantage:bugfix/burger-menu,bugfix/burger-menu,pangea-react-web,15112,closed,2 days 18:33:00
+145,66,werner-openvantage,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2437,8 +2481,8 @@ Full run trhough by all developers
 # Packages Added / Updated: #
 
 storybook - added
-all packages updated",2023-01-24 06:20:24,2023-01-24 06:33:33,2023-01-24 06:33:26,2023-01-24 06:33:25,No reviewer assigned,Not labelled,openvantage:feature/package-upgrades,feature/package-upgrades,pangea-react-web,15106,closed,0 days 00:13:01
-144,65,Oratile-Mlambo,"# Description: #
+all packages updated",2023-01-24 06:20:24,2023-01-24 06:33:33,2023-01-24 06:33:26,2023-01-24 06:33:25,No reviewer assigned,Not labelled,openvantage:feature/package-upgrades,feature/package-upgrades,pangea-react-web,15112,closed,0 days 00:13:01
+146,65,Oratile-Mlambo,"# Description: #
 
  Bulk delete users swal update and add users modal update.
 
@@ -2475,8 +2519,8 @@ https://app.clickup.com/t/3427985/PAN-553
 
 # Packages Added / Updated: #
 
-N/A",2023-01-18 07:59:39,2023-01-20 05:16:47,2023-01-19 11:08:01,2023-01-19 11:08:01,No reviewer assigned,Not labelled,openvantage:feature/bulk-delete-users-swal-update,feature/bulk-delete-users-swal-update,pangea-react-web,15106,closed,1 days 03:08:22
-145,64,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+N/A",2023-01-18 07:59:39,2023-01-20 05:16:47,2023-01-19 11:08:01,2023-01-19 11:08:01,No reviewer assigned,Not labelled,openvantage:feature/bulk-delete-users-swal-update,feature/bulk-delete-users-swal-update,pangea-react-web,15112,closed,1 days 03:08:22
+147,64,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2515,9 +2559,9 @@ https://user-images.githubusercontent.com/115209204/212896733-359ff46e-00e4-4619
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-17 12:17:41,2023-01-24 06:30:24,2023-01-24 06:30:16,2023-01-24 06:30:16,No reviewer assigned,Not labelled,openvantage:bugfix/clear-filters,bugfix/clear-filters,pangea-react-web,15106,closed,6 days 18:12:35
-146,63,werner-openvantage,This is just to add Storybook to our dev env,2023-01-17 07:07:11,2023-01-17 07:07:18,2023-01-17 07:07:18,2023-01-17 07:07:18,No reviewer assigned,Not labelled,openvantage:feature/package-upgrades,feature/package-upgrades,pangea-react-web,15106,closed,0 days 00:00:07
-147,62,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2023-01-17 12:17:41,2023-01-24 06:30:24,2023-01-24 06:30:16,2023-01-24 06:30:16,No reviewer assigned,Not labelled,openvantage:bugfix/clear-filters,bugfix/clear-filters,pangea-react-web,15112,closed,6 days 18:12:35
+148,63,werner-openvantage,This is just to add Storybook to our dev env,2023-01-17 07:07:11,2023-01-17 07:07:18,2023-01-17 07:07:18,2023-01-17 07:07:18,No reviewer assigned,Not labelled,openvantage:feature/package-upgrades,feature/package-upgrades,pangea-react-web,15112,closed,0 days 00:00:07
+149,62,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2558,8 +2602,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-16 12:00:44,2023-01-16 12:01:27,2023-01-16 12:01:27,2023-01-16 12:01:27,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15106,closed,0 days 00:00:43
-148,61,Oratile-Mlambo,"# Description: #
+* Package added/updated, motivation, npm link",2023-01-16 12:00:44,2023-01-16 12:01:27,2023-01-16 12:01:27,2023-01-16 12:01:27,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15112,closed,0 days 00:00:43
+150,61,Oratile-Mlambo,"# Description: #
 
 Rule form updates
 
@@ -2594,8 +2638,8 @@ Rule form updates
 
 # Packages Added / Updated: #
 
-N/A",2023-01-16 11:21:38,2023-01-19 11:28:26,2023-01-16 11:58:25,2023-01-16 11:58:25,No reviewer assigned,Not labelled,openvantage:bugfix/minor-UI-updates,bugfix/minor-UI-updates,pangea-react-web,15106,closed,0 days 00:36:47
-149,60,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+N/A",2023-01-16 11:21:38,2023-01-19 11:28:26,2023-01-16 11:58:25,2023-01-16 11:58:25,No reviewer assigned,Not labelled,openvantage:bugfix/minor-UI-updates,bugfix/minor-UI-updates,pangea-react-web,15112,closed,0 days 00:36:47
+151,60,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2635,8 +2679,8 @@ https://user-images.githubusercontent.com/115209204/212641040-0f6910a4-43eb-4f9d
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-16 09:23:05,2023-01-24 06:27:39,2023-01-24 06:27:34,2023-01-24 06:27:34,No reviewer assigned,Not labelled,openvantage:bugfix/show-errors-onblur,bugfix/show-errors-onblur,pangea-react-web,15106,closed,7 days 21:04:29
-150,59,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2023-01-16 09:23:05,2023-01-24 06:27:39,2023-01-24 06:27:34,2023-01-24 06:27:34,No reviewer assigned,Not labelled,openvantage:bugfix/show-errors-onblur,bugfix/show-errors-onblur,pangea-react-web,15112,closed,7 days 21:04:29
+152,59,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2679,8 +2723,8 @@ https://user-images.githubusercontent.com/115209204/212331921-79ee375c-10c7-4dd1
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-13 13:34:34,2023-01-24 06:27:18,2023-01-24 06:27:11,2023-01-24 06:27:11,No reviewer assigned,Not labelled,openvantage:bugfix/deal-validation-jump-to-error,bugfix/deal-validation-jump-to-error,pangea-react-web,15106,closed,10 days 16:52:37
-151,58,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2023-01-13 13:34:34,2023-01-24 06:27:18,2023-01-24 06:27:11,2023-01-24 06:27:11,No reviewer assigned,Not labelled,openvantage:bugfix/deal-validation-jump-to-error,bugfix/deal-validation-jump-to-error,pangea-react-web,15112,closed,10 days 16:52:37
+153,58,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2719,8 +2763,8 @@ https://app.clickup.com/t/3427985/PAN-481
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-13 11:48:56,2023-01-24 06:26:49,2023-01-24 06:26:41,2023-01-24 06:26:41,No reviewer assigned,Not labelled,openvantage:bugfix/terms-validation,bugfix/terms-validation,pangea-react-web,15106,closed,10 days 18:37:45
-152,57,Oratile-Mlambo,"# Description: #
+* Package added/updated, motivation, npm link",2023-01-13 11:48:56,2023-01-24 06:26:49,2023-01-24 06:26:41,2023-01-24 06:26:41,No reviewer assigned,Not labelled,openvantage:bugfix/terms-validation,bugfix/terms-validation,pangea-react-web,15112,closed,10 days 18:37:45
+154,57,Oratile-Mlambo,"# Description: #
 
 Rule management: Sim selector bug fix
 Account management: Prohibit data refetch if the modal was closed using the close icon/cancel button.
@@ -2759,8 +2803,8 @@ https://app.clickup.com/t/3427985/PAN-542
 
 # Packages Added / Updated: #
 
-N/A",2023-01-12 13:34:07,2023-01-19 11:28:23,2023-01-12 13:55:36,2023-01-12 13:55:36,werner-openvantage,Not labelled,openvantage:bugfix/sim-selection,bugfix/sim-selection,pangea-react-web,15106,closed,0 days 00:21:29
-153,56,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+N/A",2023-01-12 13:34:07,2023-01-19 11:28:23,2023-01-12 13:55:36,2023-01-12 13:55:36,werner-openvantage,Not labelled,openvantage:bugfix/sim-selection,bugfix/sim-selection,pangea-react-web,15112,closed,0 days 00:21:29
+155,56,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2801,8 +2845,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-11 13:37:41,2023-01-11 13:38:58,2023-01-11 13:38:58,2023-01-11 13:38:58,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15106,closed,0 days 00:01:17
-154,55,Oratile-Mlambo,"# Description: #
+* Package added/updated, motivation, npm link",2023-01-11 13:37:41,2023-01-11 13:38:58,2023-01-11 13:38:58,2023-01-11 13:38:58,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15112,closed,0 days 00:01:17
+156,55,Oratile-Mlambo,"# Description: #
 
 Bug fix for the modal fields that do not clear after adding a contact.
 
@@ -2839,8 +2883,8 @@ https://app.clickup.com/t/3427985/PAN-504
 
 # Packages Added / Updated: #
 
-N/A",2023-01-11 13:28:51,2023-01-11 13:39:36,2023-01-11 13:32:33,2023-01-11 13:32:33,No reviewer assigned,Not labelled,openvantage:bugfix/add-contact-modal,bugfix/add-contact-modal,pangea-react-web,15106,closed,0 days 00:03:42
-155,54,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+N/A",2023-01-11 13:28:51,2023-01-11 13:39:36,2023-01-11 13:32:33,2023-01-11 13:32:33,No reviewer assigned,Not labelled,openvantage:bugfix/add-contact-modal,bugfix/add-contact-modal,pangea-react-web,15112,closed,0 days 00:03:42
+157,54,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2881,8 +2925,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-10 08:52:04,2023-01-10 08:52:48,2023-01-10 08:52:48,2023-01-10 08:52:47,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15106,closed,0 days 00:00:43
-156,53,Oratile-Mlambo,"# Description: #
+* Package added/updated, motivation, npm link",2023-01-10 08:52:04,2023-01-10 08:52:48,2023-01-10 08:52:48,2023-01-10 08:52:47,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15112,closed,0 days 00:00:43
+158,53,Oratile-Mlambo,"# Description: #
 
 Clear deal, package, and sims selection on account selection change
 
@@ -2923,8 +2967,8 @@ Fix works as expected:
 
 # Packages Added / Updated: #
 
-N/A",2023-01-10 06:49:13,2023-01-10 08:11:36,2023-01-10 08:11:30,2023-01-10 08:11:30,No reviewer assigned,Not labelled,openvantage:bugfix/testing-feedback,bugfix/testing-feedback,pangea-react-web,15106,closed,0 days 01:22:17
-157,52,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+N/A",2023-01-10 06:49:13,2023-01-10 08:11:36,2023-01-10 08:11:30,2023-01-10 08:11:30,No reviewer assigned,Not labelled,openvantage:bugfix/testing-feedback,bugfix/testing-feedback,pangea-react-web,15112,closed,0 days 01:22:17
+159,52,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -2965,8 +3009,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-23 14:21:11,2022-12-23 14:21:43,2022-12-23 14:21:43,2022-12-23 14:21:43,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15106,closed,0 days 00:00:32
-158,51,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
+* Package added/updated, motivation, npm link",2022-12-23 14:21:11,2022-12-23 14:21:43,2022-12-23 14:21:43,2022-12-23 14:21:43,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15112,closed,0 days 00:00:32
+160,51,Oratile-Mlambo,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
 
@@ -3007,8 +3051,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-23 14:18:06,2022-12-23 14:18:55,2022-12-23 14:18:52,2022-12-23 14:18:52,No reviewer assigned,Not labelled,openvantage:bugfix/unselect-sim-range,bugfix/unselect-sim-range,pangea-react-web,15106,closed,0 days 00:00:46
-159,50,Oratile-Mlambo,"# Description: #
+* Package added/updated, motivation, npm link",2022-12-23 14:18:06,2022-12-23 14:18:55,2022-12-23 14:18:52,2022-12-23 14:18:52,No reviewer assigned,Not labelled,openvantage:bugfix/unselect-sim-range,bugfix/unselect-sim-range,pangea-react-web,15112,closed,0 days 00:00:46
+161,50,Oratile-Mlambo,"# Description: #
 
 Rule management feature
 
@@ -3076,8 +3120,8 @@ https://app.clickup.com/t/3427985/PAN-472
 
 # Packages Added / Updated: #
 
-N/A",2022-12-22 10:29:04,2022-12-22 10:44:36,2022-12-22 10:44:36,2022-12-22 10:44:36,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15106,closed,0 days 00:15:32
-160,49,Oratile-Mlambo,"# Description: #
+N/A",2022-12-22 10:29:04,2022-12-22 10:44:36,2022-12-22 10:44:36,2022-12-22 10:44:36,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15112,closed,0 days 00:15:32
+162,49,Oratile-Mlambo,"# Description: #
 
 Added fix for sim range selection on rule triggers form.
 Added automated tests for default rules.
@@ -3113,8 +3157,8 @@ https://app.clickup.com/t/3427985/PAN-472
 
 # Packages Added / Updated: #
 
-N/A",2022-12-22 09:49:31,2022-12-22 10:22:25,2022-12-22 10:22:12,2022-12-22 10:22:11,No reviewer assigned,Not labelled,openvantage:bugfix/sim-range-selection,bugfix/sim-range-selection,pangea-react-web,15106,closed,0 days 00:32:40
-161,48,Oratile-Mlambo,"# Description: #
+N/A",2022-12-22 09:49:31,2022-12-22 10:22:25,2022-12-22 10:22:12,2022-12-22 10:22:11,No reviewer assigned,Not labelled,openvantage:bugfix/sim-range-selection,bugfix/sim-range-selection,pangea-react-web,15112,closed,0 days 00:32:40
+163,48,Oratile-Mlambo,"# Description: #
 
 Minor UI bug fixes
 
@@ -3151,8 +3195,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 # Packages Added / Updated: #
 
-N/A",2022-12-20 14:01:27,2022-12-22 10:30:41,2022-12-20 14:02:08,2022-12-20 14:02:08,No reviewer assigned,Not labelled,openvantage:feature/PAN-108_Rule_Management,feature/PAN-108_Rule_Management,pangea-react-web,15106,closed,0 days 00:00:41
-162,47,Oratile-Mlambo,"# Description: #
+N/A",2022-12-20 14:01:27,2022-12-22 10:30:41,2022-12-20 14:02:08,2022-12-20 14:02:08,No reviewer assigned,Not labelled,openvantage:feature/PAN-108_Rule_Management,feature/PAN-108_Rule_Management,pangea-react-web,15112,closed,0 days 00:00:41
+164,47,Oratile-Mlambo,"# Description: #
 
 Rule Management superset
 
@@ -3190,76 +3234,7 @@ The feature works as expected, please see below PRs:
 
 # Packages Added / Updated: #
 
-N/A",2022-12-19 05:39:33,2022-12-19 05:55:56,2022-12-19 05:55:55,2022-12-19 05:55:55,No reviewer assigned,Not labelled,openvantage:feature/PAN-108_Rule_Management,feature/PAN-108_Rule_Management,pangea-react-web,15106,closed,0 days 00:16:22
-163,46,Oratile-Mlambo,"# Description: #
-
- Rule management automated tests
-
-# Ticket: #
-
-https://app.clickup.com/t/3427985/PAN-288
-
-# Type of change: #
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [x] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
-
-# How Has This Been Tested: #
-> ![image](https://user-images.githubusercontent.com/102795666/208354507-f3adf7bc-2f90-4e4a-b2a3-21ea19371c30.png)
-> ![image](https://user-images.githubusercontent.com/102795666/208353390-f057f310-214c-4354-ac48-3e9bdbad7df1.png)
-
-
-# Checklist:#
-- [x] My code follows the style guidelines of this project
-- [x] I have performed a self-review of my own code
-- [x] I have removed any unused code that I might have refactored
-- [x] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [x] My changes generate no new warnings
-- [ ] I have notified project leads about any environmental file changes/updates
-- [x] I have added tests that prove my fix is effective or that my feature works
-- [x] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
-
-# Packages Added / Updated: #
-
-N/A",2022-12-19 05:22:29,2023-01-19 11:28:18,2022-12-19 05:33:08,2022-12-19 05:33:08,No reviewer assigned,Not labelled,openvantage:feature/Rule_Management_Tests,feature/Rule_Management_Tests,pangea-react-web,15106,closed,0 days 00:10:39
-164,45,Oratile-Mlambo,"# Description: #
-
-Update Rule management superset branch
-
-# Ticket: #
-
-N/A
-
-# Type of change: #
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
-
-# How Has This Been Tested: #
-
-N/A
-
-# Checklist:#
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have removed any unused code that I might have refactored
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have notified project leads about any environmental file changes/updates
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
-
-# Packages Added / Updated: #
-
-N/A",2022-12-15 05:11:35,2022-12-15 05:12:09,2022-12-15 05:12:09,2022-12-15 05:12:09,No reviewer assigned,Not labelled,openvantage:DEV,DEV,pangea-react-web,15106,closed,0 days 00:00:34
+N/A",2022-12-19 05:39:33,2022-12-19 05:55:56,2022-12-19 05:55:55,2022-12-19 05:55:55,No reviewer assigned,Not labelled,openvantage:feature/PAN-108_Rule_Management,feature/PAN-108_Rule_Management,pangea-react-web,15112,closed,0 days 00:16:22
 165,23,sean-ov,,2023-01-31 18:01:55,2023-01-31 18:02:09,2023-01-31 18:02:00,2023-01-31 18:02:00,No reviewer assigned,Not labelled,openvantage:android-build-fix,android-build-fix,linksuite-saleslink,153847,closed,0 days 00:00:05
 166,22,sean-ov,,2023-01-31 17:43:56,2023-01-31 17:44:51,2023-01-31 17:44:34,2023-01-31 17:44:34,No reviewer assigned,Not labelled,openvantage:android-build-fix,android-build-fix,linksuite-saleslink,153847,closed,0 days 00:00:38
 167,21,sean-ov,,2023-01-31 17:33:01,2023-01-31 17:33:08,2023-01-31 17:33:08,2023-01-31 17:33:08,No reviewer assigned,Not labelled,openvantage:android-build-fix,android-build-fix,linksuite-saleslink,153847,closed,0 days 00:00:07
@@ -3359,7 +3334,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-19 12:50:22,2023-01-20 07:48:19,2023-01-20 07:48:19,2023-01-20 07:48:19,No reviewer assigned,Not labelled,openvantage:GMC-UI-fixes,GMC-UI-fixes,GMC-front-end,3288,closed,0 days 18:57:57
+* Package added/updated, motivation, npm link",2023-01-19 12:50:22,2023-01-20 07:48:19,2023-01-20 07:48:19,2023-01-20 07:48:19,No reviewer assigned,Not labelled,openvantage:GMC-UI-fixes,GMC-UI-fixes,GMC-front-end,3377,closed,0 days 18:57:57
 192,55,sean-ov,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3397,7 +3372,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
 
-# Packages Added / Updated: #",2023-01-16 06:51:25,2023-01-17 07:22:56,2023-01-17 07:22:51,2023-01-17 07:22:51,No reviewer assigned,Not labelled,openvantage:IG/multi-instance-fix,IG/multi-instance-fix,GMC-front-end,3288,closed,1 days 00:31:26
+# Packages Added / Updated: #",2023-01-16 06:51:25,2023-01-17 07:22:56,2023-01-17 07:22:51,2023-01-17 07:22:51,No reviewer assigned,Not labelled,openvantage:IG/multi-instance-fix,IG/multi-instance-fix,GMC-front-end,3377,closed,1 days 00:31:26
 193,54,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3441,7 +3416,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-05 07:58:50,2023-01-05 08:12:30,2023-01-05 08:12:23,2023-01-05 08:12:23,No reviewer assigned,Not labelled,openvantage:GMC-fixes,GMC-fixes,GMC-front-end,3288,closed,0 days 00:13:33
+* Package added/updated, motivation, npm link",2023-01-05 07:58:50,2023-01-05 08:12:30,2023-01-05 08:12:23,2023-01-05 08:12:23,No reviewer assigned,Not labelled,openvantage:GMC-fixes,GMC-fixes,GMC-front-end,3377,closed,0 days 00:13:33
 194,53,DrewLangley,"# Description: #
 
 Added tabs component and features for sharing/linking a case to other FA's.
@@ -3484,7 +3459,7 @@ E2E testing
 
 # Packages Added / Updated: #
 
-None",2023-01-04 11:41:20,2023-01-05 05:59:08,2023-01-05 05:59:03,2023-01-05 05:59:03,Fizz21,Not labelled,openvantage:feature/share-case,feature/share-case,GMC-front-end,3288,closed,0 days 18:17:43
+None",2023-01-04 11:41:20,2023-01-05 05:59:08,2023-01-05 05:59:03,2023-01-05 05:59:03,Fizz21,Not labelled,openvantage:feature/share-case,feature/share-case,GMC-front-end,3377,closed,0 days 18:17:43
 195,52,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3526,7 +3501,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-03 11:42:13,2023-01-04 11:18:39,2023-01-04 11:18:01,2023-01-04 11:18:01,No reviewer assigned,Not labelled,openvantage:GMC-470,GMC-470,GMC-front-end,3288,closed,0 days 23:35:48
+* Package added/updated, motivation, npm link",2023-01-03 11:42:13,2023-01-04 11:18:39,2023-01-04 11:18:01,2023-01-04 11:18:01,No reviewer assigned,Not labelled,openvantage:GMC-470,GMC-470,GMC-front-end,3377,closed,0 days 23:35:48
 196,51,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3569,7 +3544,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2023-01-03 08:08:59,2023-01-03 12:23:50,2023-01-03 12:23:36,,No reviewer assigned,Not labelled,openvantage:GMC-193,GMC-193,GMC-front-end,3288,closed,
+* Package added/updated, motivation, npm link",2023-01-03 08:08:59,2023-01-03 12:23:50,2023-01-03 12:23:36,,No reviewer assigned,Not labelled,openvantage:GMC-193,GMC-193,GMC-front-end,3377,closed,
 197,50,Fizz21,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3589,7 +3564,7 @@ GMC-463
 # How Has This Been Tested: #
 
 Tested on local
-",2022-12-29 13:35:11,2023-01-04 11:18:25,2023-01-04 11:18:15,2023-01-04 11:18:15,No reviewer assigned,Not labelled,openvantage:FormStylingEmployment,FormStylingEmployment,GMC-front-end,3288,closed,5 days 21:43:04
+",2022-12-29 13:35:11,2023-01-04 11:18:25,2023-01-04 11:18:15,2023-01-04 11:18:15,No reviewer assigned,Not labelled,openvantage:FormStylingEmployment,FormStylingEmployment,GMC-front-end,3377,closed,5 days 21:43:04
 198,49,Fizz21,"
 # Description: #
 
@@ -3622,7 +3597,7 @@ Tested on local
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
-",2022-12-19 09:54:59,2022-12-23 15:38:23,2022-12-23 15:38:03,2022-12-23 15:38:03,No reviewer assigned,Not labelled,openvantage:GMC-443_GMC-444,GMC-443_GMC-444,GMC-front-end,3288,closed,4 days 05:43:04
+",2022-12-19 09:54:59,2022-12-23 15:38:23,2022-12-23 15:38:03,2022-12-23 15:38:03,No reviewer assigned,Not labelled,openvantage:GMC-443_GMC-444,GMC-443_GMC-444,GMC-front-end,3377,closed,4 days 05:43:04
 199,48,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3664,7 +3639,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-15 10:52:14,2022-12-15 10:53:12,2022-12-15 10:52:19,2022-12-15 10:52:19,No reviewer assigned,Not labelled,openvantage:bugfix/drew-12-12-2022,bugfix/drew-12-12-2022,GMC-front-end,3288,closed,0 days 00:00:05
+* Package added/updated, motivation, npm link",2022-12-15 10:52:14,2022-12-15 10:53:12,2022-12-15 10:52:19,2022-12-15 10:52:19,No reviewer assigned,Not labelled,openvantage:bugfix/drew-12-12-2022,bugfix/drew-12-12-2022,GMC-front-end,3377,closed,0 days 00:00:05
 200,47,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3706,7 +3681,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-15 07:30:07,2022-12-15 10:18:27,2022-12-15 10:18:23,2022-12-15 10:18:23,No reviewer assigned,Not labelled,openvantage:GMC-412_Need-look-and-feel,GMC-412_Need-look-and-feel,GMC-front-end,3288,closed,0 days 02:48:16
+* Package added/updated, motivation, npm link",2022-12-15 07:30:07,2022-12-15 10:18:27,2022-12-15 10:18:23,2022-12-15 10:18:23,No reviewer assigned,Not labelled,openvantage:GMC-412_Need-look-and-feel,GMC-412_Need-look-and-feel,GMC-front-end,3377,closed,0 days 02:48:16
 201,46,DrewLangley,"# Description: #
 
 Bug fixes and improvements
@@ -3745,7 +3720,7 @@ End to end testing with local
 
 # Packages Added / Updated: #
 
-None",2022-12-08 10:45:11,2022-12-09 14:23:15,2022-12-09 14:23:09,2022-12-09 14:23:09,FrikanRwOV,Not labelled,openvantage:bugfix/drew-07-Dec_22,bugfix/drew-07-Dec_22,GMC-front-end,3288,closed,1 days 03:37:58
+None",2022-12-08 10:45:11,2022-12-09 14:23:15,2022-12-09 14:23:09,2022-12-09 14:23:09,FrikanRwOV,Not labelled,openvantage:bugfix/drew-07-Dec_22,bugfix/drew-07-Dec_22,GMC-front-end,3377,closed,1 days 03:37:58
 202,45,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3787,7 +3762,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-07 12:24:49,2022-12-07 12:47:32,2022-12-07 12:47:31,2022-12-07 12:47:31,No reviewer assigned,Not labelled,openvantage:GMC-Application,GMC-Application,GMC-front-end,3288,closed,0 days 00:22:42
+* Package added/updated, motivation, npm link",2022-12-07 12:24:49,2022-12-07 12:47:32,2022-12-07 12:47:31,2022-12-07 12:47:31,No reviewer assigned,Not labelled,openvantage:GMC-Application,GMC-Application,GMC-front-end,3377,closed,0 days 00:22:42
 203,44,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3829,7 +3804,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-07 11:41:37,2022-12-07 11:41:52,2022-12-07 11:41:44,2022-12-07 11:41:44,No reviewer assigned,Not labelled,openvantage:feature/quoteVersionSelect,feature/quoteVersionSelect,GMC-front-end,3288,closed,0 days 00:00:07
+* Package added/updated, motivation, npm link",2022-12-07 11:41:37,2022-12-07 11:41:52,2022-12-07 11:41:44,2022-12-07 11:41:44,No reviewer assigned,Not labelled,openvantage:feature/quoteVersionSelect,feature/quoteVersionSelect,GMC-front-end,3377,closed,0 days 00:00:07
 204,43,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3871,7 +3846,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-07 09:57:40,2022-12-07 10:00:37,2022-12-07 10:00:37,2022-12-07 10:00:37,No reviewer assigned,Not labelled,openvantage:fix/IG,fix/IG,GMC-front-end,3288,closed,0 days 00:02:57
+* Package added/updated, motivation, npm link",2022-12-07 09:57:40,2022-12-07 10:00:37,2022-12-07 10:00:37,2022-12-07 10:00:37,No reviewer assigned,Not labelled,openvantage:fix/IG,fix/IG,GMC-front-end,3377,closed,0 days 00:02:57
 205,42,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3913,7 +3888,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-07 07:25:17,2022-12-07 08:55:49,2022-12-07 08:55:45,2022-12-07 08:55:45,No reviewer assigned,Not labelled,openvantage:GMC-417_Solutions-Recommendations-user-experience-improvements_inno,GMC-417_Solutions-Recommendations-user-experience-improvements_inno,GMC-front-end,3288,closed,0 days 01:30:28
+* Package added/updated, motivation, npm link",2022-12-07 07:25:17,2022-12-07 08:55:49,2022-12-07 08:55:45,2022-12-07 08:55:45,No reviewer assigned,Not labelled,openvantage:GMC-417_Solutions-Recommendations-user-experience-improvements_inno,GMC-417_Solutions-Recommendations-user-experience-improvements_inno,GMC-front-end,3377,closed,0 days 01:30:28
 206,41,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3955,7 +3930,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-06 05:08:36,2022-12-06 06:01:15,2022-12-06 06:01:12,2022-12-06 06:01:12,No reviewer assigned,Not labelled,openvantage:feature/husky,feature/husky,GMC-front-end,3288,closed,0 days 00:52:36
+* Package added/updated, motivation, npm link",2022-12-06 05:08:36,2022-12-06 06:01:15,2022-12-06 06:01:12,2022-12-06 06:01:12,No reviewer assigned,Not labelled,openvantage:feature/husky,feature/husky,GMC-front-end,3377,closed,0 days 00:52:36
 207,40,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -3997,7 +3972,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-05 06:33:01,2022-12-05 07:49:51,2022-12-05 07:49:51,2022-12-05 07:49:51,No reviewer assigned,Not labelled,openvantage:GMC-360_Cleanup--Styling-Fixes_Frikan-Erwee,GMC-360_Cleanup--Styling-Fixes_Frikan-Erwee,GMC-front-end,3288,closed,0 days 01:16:50
+* Package added/updated, motivation, npm link",2022-12-05 06:33:01,2022-12-05 07:49:51,2022-12-05 07:49:51,2022-12-05 07:49:51,No reviewer assigned,Not labelled,openvantage:GMC-360_Cleanup--Styling-Fixes_Frikan-Erwee,GMC-360_Cleanup--Styling-Fixes_Frikan-Erwee,GMC-front-end,3377,closed,0 days 01:16:50
 208,39,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4039,7 +4014,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-05 06:32:21,2022-12-05 07:50:08,2022-12-05 07:50:08,2022-12-05 07:50:07,DrewLangley,Not labelled,openvantage:fix/dropNavClick,fix/dropNavClick,GMC-front-end,3288,closed,0 days 01:17:46
+* Package added/updated, motivation, npm link",2022-12-05 06:32:21,2022-12-05 07:50:08,2022-12-05 07:50:08,2022-12-05 07:50:07,DrewLangley,Not labelled,openvantage:fix/dropNavClick,fix/dropNavClick,GMC-front-end,3377,closed,0 days 01:17:46
 209,38,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4083,7 +4058,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-02 15:21:21,2022-12-02 15:27:59,2022-12-02 15:27:59,2022-12-02 15:27:59,No reviewer assigned,Not labelled,openvantage:quote-templates,quote-templates,GMC-front-end,3288,closed,0 days 00:06:38
+* Package added/updated, motivation, npm link",2022-12-02 15:21:21,2022-12-02 15:27:59,2022-12-02 15:27:59,2022-12-02 15:27:59,No reviewer assigned,Not labelled,openvantage:quote-templates,quote-templates,GMC-front-end,3377,closed,0 days 00:06:38
 210,37,Fizz21,"# Description: #
 
 Main Navigation Changes
@@ -4097,7 +4072,7 @@ GMC-355
 - [X] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update",2022-12-02 15:16:54,2022-12-02 15:23:54,2022-12-02 15:23:53,2022-12-02 15:23:53,No reviewer assigned,Not labelled,openvantage:GMC-355_main_navigation_changes,GMC-355_main_navigation_changes,GMC-front-end,3288,closed,0 days 00:06:59
+- [ ] This change requires a documentation update",2022-12-02 15:16:54,2022-12-02 15:23:54,2022-12-02 15:23:53,2022-12-02 15:23:53,No reviewer assigned,Not labelled,openvantage:GMC-355_main_navigation_changes,GMC-355_main_navigation_changes,GMC-front-end,3377,closed,0 days 00:06:59
 211,36,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4142,7 +4117,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-02 09:11:32,2022-12-02 10:02:09,2022-12-02 10:00:35,2022-12-02 10:00:35,No reviewer assigned,Not labelled,openvantage:GMC-71-Detailing,GMC-71-Detailing,GMC-front-end,3288,closed,0 days 00:49:03
+* Package added/updated, motivation, npm link",2022-12-02 09:11:32,2022-12-02 10:02:09,2022-12-02 10:00:35,2022-12-02 10:00:35,No reviewer assigned,Not labelled,openvantage:GMC-71-Detailing,GMC-71-Detailing,GMC-front-end,3377,closed,0 days 00:49:03
 212,35,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4184,7 +4159,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-12-02 03:48:51,2022-12-02 03:57:42,2022-12-02 03:57:42,2022-12-02 03:57:42,No reviewer assigned,Not labelled,openvantage:GMC-183_View-Received-Quotes-Data-From-Insurers-Company-Table-View-Per-Client-per-benefit_Frikan-Erwee,GMC-183_View-Received-Quotes-Data-From-Insurers-Company-Table-View-Per-Client-per-benefit_Frikan-Erwee,GMC-front-end,3288,closed,0 days 00:08:51
+* Package added/updated, motivation, npm link",2022-12-02 03:48:51,2022-12-02 03:57:42,2022-12-02 03:57:42,2022-12-02 03:57:42,No reviewer assigned,Not labelled,openvantage:GMC-183_View-Received-Quotes-Data-From-Insurers-Company-Table-View-Per-Client-per-benefit_Frikan-Erwee,GMC-183_View-Received-Quotes-Data-From-Insurers-Company-Table-View-Per-Client-per-benefit_Frikan-Erwee,GMC-front-end,3377,closed,0 days 00:08:51
 213,34,inno-0,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4226,7 +4201,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-11-30 07:21:40,2022-11-30 07:25:14,2022-11-30 07:25:14,2022-11-30 07:25:14,No reviewer assigned,Not labelled,openvantage:quote-templates,quote-templates,GMC-front-end,3288,closed,0 days 00:03:34
+* Package added/updated, motivation, npm link",2022-11-30 07:21:40,2022-11-30 07:25:14,2022-11-30 07:25:14,2022-11-30 07:25:14,No reviewer assigned,Not labelled,openvantage:quote-templates,quote-templates,GMC-front-end,3377,closed,0 days 00:03:34
 214,33,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4268,7 +4243,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-11-29 18:37:45,2022-11-29 18:38:04,2022-11-29 18:38:00,2022-11-29 18:38:00,No reviewer assigned,Not labelled,openvantage:feature/uploadDocuments,feature/uploadDocuments,GMC-front-end,3288,closed,0 days 00:00:15
+* Package added/updated, motivation, npm link",2022-11-29 18:37:45,2022-11-29 18:38:04,2022-11-29 18:38:00,2022-11-29 18:38:00,No reviewer assigned,Not labelled,openvantage:feature/uploadDocuments,feature/uploadDocuments,GMC-front-end,3377,closed,0 days 00:00:15
 215,32,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4310,7 +4285,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-11-29 18:26:48,2022-11-29 18:27:54,2022-11-29 18:27:48,2022-11-29 18:27:48,No reviewer assigned,Not labelled,openvantage:feature/uploadDocuments,feature/uploadDocuments,GMC-front-end,3288,closed,0 days 00:01:00
+* Package added/updated, motivation, npm link",2022-11-29 18:26:48,2022-11-29 18:27:54,2022-11-29 18:27:48,2022-11-29 18:27:48,No reviewer assigned,Not labelled,openvantage:feature/uploadDocuments,feature/uploadDocuments,GMC-front-end,3377,closed,0 days 00:01:00
 216,31,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4352,7 +4327,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-11-29 16:25:51,2022-11-29 18:26:23,2022-11-29 18:26:07,2022-11-29 18:26:07,No reviewer assigned,Not labelled,openvantage:GMC-71-Detailing,GMC-71-Detailing,GMC-front-end,3288,closed,0 days 02:00:16
+* Package added/updated, motivation, npm link",2022-11-29 16:25:51,2022-11-29 18:26:23,2022-11-29 18:26:07,2022-11-29 18:26:07,No reviewer assigned,Not labelled,openvantage:GMC-71-Detailing,GMC-71-Detailing,GMC-front-end,3377,closed,0 days 02:00:16
 217,30,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4394,7 +4369,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-11-29 14:33:54,2022-11-29 14:34:07,2022-11-29 14:34:01,,No reviewer assigned,Not labelled,openvantage:feature/uploadDocuments,feature/uploadDocuments,GMC-front-end,3288,closed,
+* Package added/updated, motivation, npm link",2022-11-29 14:33:54,2022-11-29 14:34:07,2022-11-29 14:34:01,,No reviewer assigned,Not labelled,openvantage:feature/uploadDocuments,feature/uploadDocuments,GMC-front-end,3377,closed,
 218,29,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4436,7 +4411,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-* Package added/updated, motivation, npm link",2022-11-29 14:23:16,2022-11-29 14:34:23,2022-11-29 14:34:19,2022-11-29 14:34:19,No reviewer assigned,Not labelled,openvantage:GMC-71-Detailing,GMC-71-Detailing,GMC-front-end,3288,closed,0 days 00:11:03
+* Package added/updated, motivation, npm link",2022-11-29 14:23:16,2022-11-29 14:34:23,2022-11-29 14:34:19,2022-11-29 14:34:19,No reviewer assigned,Not labelled,openvantage:GMC-71-Detailing,GMC-71-Detailing,GMC-front-end,3377,closed,0 days 00:11:03
 219,28,JenyoJ,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4479,7 +4454,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
 * Package added/updated, motivation, npm link
-* useDebounce",2022-11-29 12:45:24,2022-11-29 13:49:25,2022-11-29 13:48:59,2022-11-29 13:48:59,No reviewer assigned,Not labelled,openvantage:GMC-71,GMC-71,GMC-front-end,3288,closed,0 days 01:03:35
+* useDebounce",2022-11-29 12:45:24,2022-11-29 13:49:25,2022-11-29 13:48:59,2022-11-29 13:48:59,No reviewer assigned,Not labelled,openvantage:GMC-71,GMC-71,GMC-front-end,3377,closed,0 days 01:03:35
 220,27,FrikanRwOV,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
@@ -4521,7 +4496,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 Please describe here what packages you have added and/or updated in the project with proper motivation.
 
-*   ""react-responsive-carousel"": ""^3.2.23"", - https://www.npmjs.com/package/react-responsive-carousel - The landing page needed a carousel for the POC.",2022-11-28 07:20:46,2022-11-30 15:49:19,2022-11-28 07:43:02,2022-11-28 07:43:02,No reviewer assigned,Not labelled,openvantage:feature/landing,feature/landing,GMC-front-end,3288,closed,0 days 00:22:16
+*   ""react-responsive-carousel"": ""^3.2.23"", - https://www.npmjs.com/package/react-responsive-carousel - The landing page needed a carousel for the POC.",2022-11-28 07:20:46,2022-11-30 15:49:19,2022-11-28 07:43:02,2022-11-28 07:43:02,No reviewer assigned,Not labelled,openvantage:feature/landing,feature/landing,GMC-front-end,3377,closed,0 days 00:22:16
 221,26,sean-ov,"Please complete the following. Where there are [] mark them with an X i.e [X], if anything is unclear ask your project lead
 
 # Description: #
