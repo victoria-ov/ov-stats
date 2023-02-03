@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import datetime
 # import AgGrid
 # from st_aggrid import AgGrid
 # from st_aggrid.grid_options_builder import GridOptionsBuilder
@@ -117,6 +118,57 @@ with tab2:
 
 with tab3:
    # st.header("Closed Pull Requests")
-   st.markdown("**Owl be here soon...**")
+   closed_prs_table = pd.DataFrame().assign(Repository=closed_prs['head.repo.name'], Engineer=closed_prs['user.login'],
+                                          Reviewer=closed_prs['requested_reviewers'], Created=closed_prs['created_at'],
+                                          Merged=closed_prs['merged_at'], Hours=closed_prs['hours'])
 
-   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+   # st.dataframe(closed_prs_table)
+
+   closed_prs_table['Created'] = pd.to_datetime(closed_prs_table['Created']).dt.tz_localize(None)
+   closed_prs_table['Merged'] = pd.to_datetime(closed_prs_table['Merged']).dt.tz_localize(None)
+
+   last30days = closed_prs_table.loc[closed_prs_table['Merged'] > (pd.to_datetime('today') - pd.Timedelta(30, unit='d'))]
+   last90days = closed_prs_table.loc[closed_prs_table['Merged'] > (pd.to_datetime('today') - pd.Timedelta(90, unit='d'))]
+
+   with st.container():
+      col1, col2 = st.columns(2)
+
+      with col1:
+         st.metric("Avg Cycle time in hours (30days)", last30days['Hours'].mean().round(2),
+                   delta=None, delta_color="normal", help=None, label_visibility="visible")
+
+      with col2:
+         st.metric("Avg Cycle time in hours (90days)", last90days['Hours'].mean().round(2),
+                   delta=None, delta_color="normal", help=None, label_visibility="visible")
+
+   st.markdown("**Average time (in hours) for a PR to be merged per repository (past 90 days)**")
+   closed_prsper_repo = closed_prs_table.groupby(['Repository'])['Hours'].mean().reset_index(name="count")
+   closed_prsper_repo_data = pd.DataFrame()
+   closed_prsper_repo_data['Repository'] = closed_prsper_repo['Repository']
+   closed_prsper_repo_data['Hours'] = closed_prsper_repo['count']
+   closed_prsper_repo_chart = alt.Chart(closed_prsper_repo_data).mark_bar().encode(
+      # alt.Row('Engineer', header=alt.Header(titleOrient='left', labelOrient='bottom')),
+      alt.X('Hours', axis=alt.Axis(grid=True, tickMinStep=1)),
+      alt.Y('Repository', axis=alt.Axis(title=None, labels=True)),
+      # alt.Color('Number of days', legend=None)
+   )
+   st.altair_chart(closed_prsper_repo_chart, use_container_width=True)
+
+   st.markdown("**Average time (in hours) for a PR to be merged per reviewer (past 90 days)**")
+   closed_prsper_reviewer = closed_prs_table.groupby(['Reviewer'])['Hours'].mean().reset_index(name="count")
+   closed_prsper_reviewer_data = pd.DataFrame()
+   closed_prsper_reviewer_data['Reviewer'] = closed_prsper_reviewer['Reviewer']
+   closed_prsper_reviewer_data['Hours'] = closed_prsper_reviewer['count']
+   closed_prsper_reviewer_chart = alt.Chart(closed_prsper_reviewer_data).mark_bar().encode(
+      # alt.Row('Engineer', header=alt.Header(titleOrient='left', labelOrient='bottom')),
+      alt.X('Hours', axis=alt.Axis(grid=True, tickMinStep=1)),
+      alt.Y('Reviewer', axis=alt.Axis(title=None, labels=True)),
+      # alt.Color('Number of days', legend=None)
+   )
+   st.altair_chart(closed_prsper_reviewer_chart, use_container_width=True)
+
+   # Create a chart -- Average time elapsed of before a PR is closed per repository
+   # closed_prs_per_repo = closed_prs.groupby(['head.repo.name'])['Time since created'].mean().reset_index(name="count")
+   # closed_prs_per_repo['value'] = closed_prs_per_repo['count'].dt.days
+   # closed_prs_per_repo.plot.bar(x='head.repo.name', y='value',
+   #                              title="Average time elapsed of before a PR is closed per repository")
