@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import AgGrid
-from st_aggrid import AgGrid
-from st_aggrid.grid_options_builder import GridOptionsBuilder
+# import AgGrid
+# from st_aggrid import AgGrid
+# from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 st.set_page_config(page_title="Open Vantage GitHub Metrics")
 
@@ -57,13 +57,13 @@ with tab2:
                                           Reviewer=open_prs['requested_reviewers'], Created=open_prs['created_at'],
                                           Updated=open_prs['updated_at'], DaysOpen=open_prs['days-open'])
 
-   gb = GridOptionsBuilder.from_dataframe(open_prs_table)
-   gb.configure_pagination()
-   gb.configure_side_bar()
-   gb.configure_default_column(groupable=True, value=True, enableRowGroup=True)
-   gridOptions = gb.build()
-   AgGrid(open_prs_table, gridOptions=gridOptions)
-
+   # gb = GridOptionsBuilder.from_dataframe(open_prs_table)
+   # gb.configure_pagination()
+   # gb.configure_side_bar()
+   # gb.configure_default_column(groupable=True, value=True, enableRowGroup=True)
+   # gridOptions = gb.build()
+   # AgGrid(open_prs_table, gridOptions=gridOptions)
+   st.dataframe(open_prs_table)
 
    open_prs['days-open'] = pd.to_timedelta(open_prs['days-open'])
    open_prs['Time since created'] = open_prs['days-open'].dt.round(freq="D")
