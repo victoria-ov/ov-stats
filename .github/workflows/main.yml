@@ -2,7 +2,7 @@ name: run build-datasets.py
 
 on:
   schedule:
-    - cron: "0 12 * * *" # Every 12 hours
+    - cron: "2 * * * *" # Every 12 hours
     
 
 jobs:
