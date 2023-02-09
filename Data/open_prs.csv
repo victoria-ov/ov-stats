@@ -1,7 +1,0 @@
-,number,user.login,created_at,updated_at,requested_reviewers,labels,head.label,head.ref,head.repo.name,head.repo.size,state,days-open
-0,159,AdamErwee,2023-02-08 13:49:51,2023-02-08 13:56:48,WilcoBreedt,Not labelled,openvantage:AI1-1307_JMCFix,AI1-1307_JMCFix,ai1-web-react,15272,open,0 days 02:15:58.808618
-30,14,Riley-5,2023-01-20 10:10:50,2023-02-08 09:01:31,WilcoBreedt,Not labelled,openvantage:AI-1247_GP_WORKFLOWS,AI-1247_GP_WORKFLOWS,ai1-mobile-rn,4891,open,19 days 05:54:59.808618
-37,7,AdamErwee,2022-10-12 12:05:58,2022-12-30 11:40:26,WilcoBreedt,DO NOT MERGE,openvantage:AI1-1089_JobRefetch,AI1-1089_JobRefetch,ai1-mobile-rn,4891,open,119 days 03:59:51.808618
-44,89,AdamErwee,2023-02-08 09:53:13,2023-02-08 09:53:16,WilcoBreedt,READY FOR REVIEW,openvantage:AI1-1262_ReportOrderFix,AI1-1262_ReportOrderFix,ai1-backend-prisma,12147,open,0 days 06:12:36.808618
-105,45,WianOV,2022-12-12 10:59:16,2023-01-10 05:23:56,Faziki,Not labelled,openvantage:small-fixes,small-fixes,otto-mobile-rn,5266,open,58 days 05:06:33.808618
-137,80,Oratile-Mlambo,2023-02-07 09:55:58,2023-02-08 10:17:33,No reviewer assigned,Not labelled,openvantage:feature/rule-deal-account-view-pages,feature/rule-deal-account-view-pages,pangea-react-web,15623,open,1 days 06:09:51.808618

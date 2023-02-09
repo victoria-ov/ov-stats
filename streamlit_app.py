@@ -8,11 +8,11 @@ import datetime
 
 st.set_page_config(page_title="Open Vantage GitHub Metrics")
 
-daily_commits = pd.read_csv('./Data/daily_commits.csv', sep=',')
-today_commits = pd.read_csv('./Data/today_commits.csv', sep=',')
+daily_commits = pd.read_csv('s3://ov-stats/daily_commits.csv', sep=',')
+today_commits = pd.read_csv('s3://ov-stats/today_commits.csv', sep=',')
 
-open_prs = pd.read_csv('./Data/open_prs.csv', sep=',')
-closed_prs = pd.read_csv('./Data/closed_prs.csv', sep=',')
+open_prs = pd.read_csv('s3://ov-stats/open_prs.csv', sep=',')
+closed_prs = pd.read_csv('s3://ov-stats/closed_prs.csv', sep=',')
 
 
 st.title("Open Vantage GitHub Metrics")
