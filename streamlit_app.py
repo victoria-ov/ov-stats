@@ -15,7 +15,7 @@ closed_prs = pd.read_csv('s3://ov-stats/closed_prs.csv', sep=',')
 
 st.title("Open Vantage GitHub Metrics")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Commits", "Open Pull Requests", "Closed Pull Requests", "Other"])
+tab1, tab2, tab3 = st.tabs(["Commits", "Open Pull Requests", "Closed Pull Requests"])
 
 with tab1:
    daily_commits['author.login'] = daily_commits['author.login'].replace('', pd.NA).fillna(daily_commits['author.name'])
