@@ -4,7 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pygithub = "*"
+fsspec = "==2023.1.0"
+s3fs = "==2023.1.0"
+streamlit = "==1.17.0"
+pandas = "==1.5.3"
+altair = "==4.2.2"
+streamlit-aggrid = "==0.3.3"
 
 [dev-packages]
 
